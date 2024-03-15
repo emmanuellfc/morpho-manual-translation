@@ -1,0 +1,3899 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Morpho Manual\n"
+"POT-Creation-Date: 2024-03-15T09:44:05-04:00\n"
+"PO-Revision-Date: 2024-03-15 09:45-0400\n"
+"Last-Translator: Emmanuel Flores <eq.emmanuel.137@gmail.com>\n"
+"Language-Team: Spanish <es@tp.org.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/SUMMARY.md:1
+msgid "The Morpho Manual"
+msgstr ""
+
+#: src/SUMMARY.md:3
+msgid "Foreword"
+msgstr ""
+
+#: src/SUMMARY.md:4
+msgid "Overview"
+msgstr ""
+
+#: src/SUMMARY.md:5
+msgid "Installing Morpho"
+msgstr ""
+
+#: src/SUMMARY.md:6
+msgid "Using Morpho"
+msgstr ""
+
+#: src/SUMMARY.md:7 src/tutorial_translated.md:2
+msgid "Tutorial"
+msgstr ""
+
+#: src/SUMMARY.md:8
+msgid "Importing Modules"
+msgstr ""
+
+#: src/SUMMARY.md:9 src/tutorial/morpho_language_translated.md:1
+msgid "Morpho Language"
+msgstr ""
+
+#: src/SUMMARY.md:10
+msgid "Creating the initial mesh"
+msgstr ""
+
+#: src/SUMMARY.md:11 src/visualization/plot_module.md:98
+msgid "Selections"
+msgstr ""
+
+#: src/SUMMARY.md:12 src/visualization/plot_module.md:137
+msgid "Fields"
+msgstr ""
+
+#: src/SUMMARY.md:13
+msgid "Defining the problem"
+msgstr ""
+
+#: src/SUMMARY.md:14
+msgid "Performing the optimization"
+msgstr ""
+
+#: src/SUMMARY.md:15
+msgid "Visualizing the results"
+msgstr ""
+
+#: src/SUMMARY.md:16
+msgid "Refinement"
+msgstr ""
+
+#: src/SUMMARY.md:17
+msgid "Next steps"
+msgstr ""
+
+#: src/SUMMARY.md:18
+msgid "Working with meshes"
+msgstr ""
+
+#: src/SUMMARY.md:19 src/working_with_meshes/meshgen_module.md:1
+msgid "The meshgen module"
+msgstr ""
+
+#: src/SUMMARY.md:20 src/working_with_meshes/meshtools_module.md:1
+msgid "The meshtools module"
+msgstr ""
+
+#: src/SUMMARY.md:21 src/working_with_meshes/vtk_module.md:1
+msgid "The vtk module"
+msgstr ""
+
+#: src/SUMMARY.md:22 src/working_with_meshes/merging_meshes.md:1
+msgid "Merging meshes"
+msgstr ""
+
+#: src/SUMMARY.md:23 src/working_with_meshes/slicing_meshes.md:1
+msgid "Slicing meshes"
+msgstr ""
+
+#: src/SUMMARY.md:24 src/visualization.md:1 src/examples/qtensor.md:154
+msgid "Visualization"
+msgstr ""
+
+#: src/SUMMARY.md:25 src/visualization/plot_module.md:1
+msgid "The plot module"
+msgstr ""
+
+#: src/SUMMARY.md:26 src/visualization/graphics_module.md:1
+msgid "The graphics module"
+msgstr ""
+
+#: src/SUMMARY.md:27 src/visualization/povray_module.md:1
+msgid "The povray module"
+msgstr ""
+
+#: src/SUMMARY.md:28 src/examples.md:1
+msgid "Examples"
+msgstr ""
+
+#: src/SUMMARY.md:29 src/examples/catenoid.md:1
+msgid "Catenoid"
+msgstr ""
+
+#: src/SUMMARY.md:30 src/examples/cholesteric.md:1
+msgid "Cholesteric"
+msgstr ""
+
+#: src/SUMMARY.md:31 src/examples/cube.md:1
+msgid "Cube"
+msgstr ""
+
+#: src/SUMMARY.md:32 src/SUMMARY.md:71 src/examples/delaunay.md:1
+#: src/reference/nested/delaunay.md:1
+msgid "Delaunay"
+msgstr ""
+
+#: src/SUMMARY.md:33 src/examples/dla.md:1
+msgid "DLA"
+msgstr ""
+
+#: src/SUMMARY.md:34 src/examples/electrostatics.md:1
+msgid "Electrostatics"
+msgstr ""
+
+#: src/SUMMARY.md:35 src/SUMMARY.md:73 src/examples/implicitmesh.md:1
+#: src/reference/nested/implicitmesh.md:1
+msgid "Implicitmesh"
+msgstr ""
+
+#: src/SUMMARY.md:36 src/examples/meshgen.md:1
+msgid "Meshgen"
+msgstr ""
+
+#: src/SUMMARY.md:37 src/examples/meshslice.md:1
+msgid "Meshslice"
+msgstr ""
+
+#: src/SUMMARY.md:38 src/SUMMARY.md:79 src/examples/plot.md:1
+#: src/reference/nested/plot.md:1
+msgid "Plot"
+msgstr ""
+
+#: src/SUMMARY.md:39 src/examples/povray.md:1
+msgid "Povray"
+msgstr ""
+
+#: src/SUMMARY.md:40
+msgid "QTensor"
+msgstr ""
+
+#: src/SUMMARY.md:41 src/examples/thomson.md:1
+msgid "Thomson"
+msgstr ""
+
+#: src/SUMMARY.md:42 src/examples/wrap.md:1
+msgid "Wrap"
+msgstr ""
+
+#: src/SUMMARY.md:43 src/reference.md:1
+msgid "Reference"
+msgstr ""
+
+#: src/SUMMARY.md:44 src/reference/language.md:1
+msgid "Language"
+msgstr ""
+
+#: src/SUMMARY.md:45 src/reference/nested/syntax.md:1
+msgid "Syntax"
+msgstr ""
+
+#: src/SUMMARY.md:46 src/reference/nested/values.md:1
+msgid "Values"
+msgstr ""
+
+#: src/SUMMARY.md:47 src/reference/nested/variables.md:1
+msgid "Variables"
+msgstr ""
+
+#: src/SUMMARY.md:48 src/reference/nested/controlflow.md:1
+msgid "Control Flow"
+msgstr ""
+
+#: src/SUMMARY.md:49 src/reference/nested/functions.md:1
+msgid "Functions"
+msgstr ""
+
+#: src/SUMMARY.md:50 src/reference/nested/classes.md:1
+msgid "Classes"
+msgstr ""
+
+#: src/SUMMARY.md:51 src/SUMMARY.md:69 src/reference/nested/modules.md:1
+#: src/reference/modules.md:1
+msgid "Modules"
+msgstr ""
+
+#: src/SUMMARY.md:52 src/reference/nested/help.md:1
+msgid "Help"
+msgstr ""
+
+#: src/SUMMARY.md:53 src/reference/nested/builtin.md:1
+msgid "Built-in Functions"
+msgstr ""
+
+#: src/SUMMARY.md:54 src/reference/data_types.md:1
+msgid "Data Types"
+msgstr ""
+
+#: src/SUMMARY.md:55 src/reference/nested/array.md:1
+msgid "Array"
+msgstr ""
+
+#: src/SUMMARY.md:56 src/reference/nested/complex.md:1
+msgid "Complex"
+msgstr ""
+
+#: src/SUMMARY.md:57 src/reference/nested/list.md:1
+msgid "List"
+msgstr ""
+
+#: src/SUMMARY.md:58 src/reference/nested/matrix.md:1
+msgid "Matrix"
+msgstr ""
+
+#: src/SUMMARY.md:59 src/reference/nested/range.md:1
+msgid "Range"
+msgstr ""
+
+#: src/SUMMARY.md:60 src/reference/nested/sparse.md:1
+msgid "Sparse"
+msgstr ""
+
+#: src/SUMMARY.md:61 src/reference/nested/string.md:1
+msgid "String"
+msgstr ""
+
+#: src/SUMMARY.md:62 src/reference/computational_geometry.md:1
+msgid "Computational Geometry"
+msgstr ""
+
+#: src/SUMMARY.md:63 src/reference/nested/field.md:1
+msgid "Field"
+msgstr ""
+
+#: src/SUMMARY.md:64 src/reference/nested/functionals.md:1
+msgid "Functionals"
+msgstr ""
+
+#: src/SUMMARY.md:65 src/reference/nested/mesh.md:1
+msgid "Mesh"
+msgstr ""
+
+#: src/SUMMARY.md:66 src/reference/nested/selection.md:1
+msgid "Selection"
+msgstr ""
+
+#: src/SUMMARY.md:67 src/reference/io.md:1
+msgid "I/O"
+msgstr ""
+
+#: src/SUMMARY.md:68 src/reference/nested/file.md:1
+msgid "File"
+msgstr ""
+
+#: src/SUMMARY.md:70 src/reference/nested/color.md:1
+msgid "Color"
+msgstr ""
+
+#: src/SUMMARY.md:72 src/reference/nested/graphics.md:1
+msgid "Graphics"
+msgstr ""
+
+#: src/SUMMARY.md:74 src/reference/nested/kdtree.md:1
+msgid "KDTree"
+msgstr ""
+
+#: src/SUMMARY.md:75 src/reference/nested/meshgen.md:1
+msgid "MeshGen"
+msgstr ""
+
+#: src/SUMMARY.md:76 src/reference/nested/meshslice.md:1
+msgid "MeshSlice"
+msgstr ""
+
+#: src/SUMMARY.md:77 src/reference/nested/meshtools.md:1
+msgid "Meshtools"
+msgstr ""
+
+#: src/SUMMARY.md:78 src/reference/nested/optimize.md:1
+msgid "Optimize"
+msgstr ""
+
+#: src/SUMMARY.md:80 src/reference/nested/povray.md:1
+msgid "POVRay"
+msgstr ""
+
+#: src/SUMMARY.md:81 src/reference/nested/vtk.md:1
+msgid "VTK"
+msgstr ""
+
+#: src/SUMMARY.md:83 src/mdbook_notes.md:1
+msgid "mdBook Notes"
+msgstr ""
+
+#: src/foreword.md:1
+msgid "![image](Figures/morphologo.pdf)"
+msgstr ""
+
+#: src/foreword.md:2
+msgid "Version 0.5.7"
+msgstr ""
+
+#: src/foreword.md:5
+msgid "_In nova fert animus mutatas dicere formas_"
+msgstr ""
+
+#: src/foreword.md:7
+msgid "_corpora; di, coeptis (nam vos mutastis et illas)_"
+msgstr ""
+
+#: src/foreword.md:9
+msgid "_adspirate meis primaque ab origine mundi_"
+msgstr ""
+
+#: src/foreword.md:11
+msgid "_ad mea perpetuum deducite tempora carmen!_"
+msgstr ""
+
+#: src/foreword.md:13
+msgid "Ovid, _Metamorphoses_"
+msgstr ""
+
+#: src/foreword.md:15
+msgid "Acknowledgements"
+msgstr ""
+
+#: src/foreword.md:17
+msgid ""
+"The principal architect of _morpho_, T J Atherton, wishes to thank the many "
+"people who have used various versions of the program or otherwise "
+"contributed to the project:"
+msgstr ""
+
+#: src/foreword.md:21
+msgid "Andrew DeBenedictis"
+msgstr ""
+
+#: src/foreword.md:23
+msgid "Danny Goldstein"
+msgstr ""
+
+#: src/foreword.md:25
+msgid "Ian Hunter"
+msgstr ""
+
+#: src/foreword.md:27
+msgid "Chaitanya Joshi"
+msgstr ""
+
+#: src/foreword.md:29
+msgid "Cole Wennerholm"
+msgstr ""
+
+#: src/foreword.md:31
+msgid "Eoghan Downey"
+msgstr ""
+
+#: src/foreword.md:33
+msgid "Allison Culbert"
+msgstr ""
+
+#: src/foreword.md:35
+msgid "Abigail Wilson"
+msgstr ""
+
+#: src/foreword.md:37
+msgid "Zhaoyu Xie"
+msgstr ""
+
+#: src/foreword.md:39
+msgid "Matthew Peterson"
+msgstr ""
+
+#: src/foreword.md:41
+msgid "Chris Burke"
+msgstr ""
+
+#: src/foreword.md:43
+msgid "Badel Mbanga"
+msgstr ""
+
+#: src/foreword.md:45
+msgid "Anca Andrei"
+msgstr ""
+
+#: src/foreword.md:47
+msgid "Mathew Giso"
+msgstr ""
+
+#: src/foreword.md:49
+msgid "Sam Hocking"
+msgstr ""
+
+#: src/foreword.md:51
+msgid "Emmett Hamilton"
+msgstr ""
+
+#: src/foreword.md:53
+msgid "Hudson Ramirez"
+msgstr ""
+
+#: src/foreword.md:55
+msgid "Paco Navarro"
+msgstr ""
+
+#: src/foreword.md:57
+msgid ""
+"_This material is based upon work supported by the National Science "
+"Foundation under grants DMR-1654283 and OAC-2003820._"
+msgstr ""
+
+#: src/overview_translated.md:2
+msgid "Descripción general"
+msgstr ""
+
+#: src/overview_translated.md:4
+msgid ""
+"_Morpho_ tiene como objetivo resolver la siguiente clase de problemas. "
+"Considerar un funcional, $$ f = \\ int\\_ {c} f (q, \\ nabla q, \\ nabla^{2} "
+"q, ...) d^{n} x+\\ int _ {\\ parcial c} g (q, \\ nabla q, \\\\ nabla^{2} "
+"q, ...) d^{n-1} x, $$ donde \\ (q ) representa un conjunto de campos "
+"definidos en un colector \\ (c ) que podría incluir escalar, vector, tensor "
+"u otras cantidades y sus derivados \\ (\\ nabla^{n} q ). Lo funcional "
+"incluye términos a granel y en el límite \\ (\\ parcial c ) y también puede "
+"incluir propiedades geométricas del colector, como las curvaturas locales. "
+"Este funcional debe ser minimizado desde una suposición inicial \\ (\\ {c\\_ "
+"{0}, q\\_ {0} } ) con respeto a los campos \\ (q ) y la forma del colector "
+"\\ (c ). Global y Las restricciones locales se pueden imponer tanto en \\ "
+"(c ) como en \\ (q )."
+msgstr ""
+
+#: src/overview_translated.md:21
+msgid ""
+"_Morpho_ es un entorno orientado a objetos: todos los componentes del "
+"Problema, incluido el dominio computacional, los campos, los funcionales, "
+"etc. todos están representados como objetos que interactúan entre sí. Gran "
+"parte de El esfuerzo por escribir un programa _morpho_ implica la creación y "
+"manipulando estos objetos. El entorno es flexible, modular y Los usuarios "
+"pueden crear fácilmente nuevos tipos de objetos, o cambiar completamente "
+"cómo _morpho_ funciona."
+msgstr ""
+
+#: src/overview_translated.md:31
+msgid ""
+"Este manual tiene como objetivo ayudar a los usuarios a aprender a usar "
+"_morpho_. Proporciona Instrucciones de instalación en \\[Capítulo 2\\] "
+"(installing_morpho.md), información sobre cómo ejecutar el Programa en "
+"\\[Capítulo 3\\] (usando_morpho.md). Se proporciona un tutorial detallado en "
+"\\[Capítulo 4\\] (tutorial.md), que muestra cómo configurar y resolver un "
+"ejemplo problema. \\[Capítulo 5\\] (Working_with_meshes.md) proporciona "
+"información sobre el trabajo con mallas y \\[Capítulo 6\\] (Visualization."
+"MD) describe cómo visualizar los resultados de su cálculo con _morpho_. Los "
+"ejemplos proporcionados con morfo son descrito en \\[Capítulo 7\\] (ejemplos."
+"md). Los capítulos restantes, que comprenden el Segunda parte del manual, "
+"proporcione una guía de referencia para todas las áreas de _morpho_ "
+"funcionality."
+msgstr ""
+
+#: src/installing_morpho.md:1
+msgid "Installing _Morpho_"
+msgstr ""
+
+#: src/installing_morpho.md:3
+msgid ""
+"_Morpho_ is hosted on a publicly available github repository <https://github."
+"com/Morpho-lang/morpho>. We are continuously working on improving _morpho_ "
+"installation. With this release, _morpho_ on macOS now has a streamlined "
+"installation process using homebrew. Other platforms must be installed from "
+"source and we hope to provide packages for future releases. Instructions for "
+"different platforms are provided below."
+msgstr ""
+
+#: src/installing_morpho.md:11
+msgid "Where _morpho_ installation puts things"
+msgstr ""
+
+#: src/installing_morpho.md:13
+msgid ""
+"A _morpho_ installation includes help files, modules, and other resources. "
+"By default, these are installed in the **/usr/local/** file structure, "
+"including in the following places:"
+msgstr ""
+
+#: src/installing_morpho.md:17
+msgid ""
+"**/usr/local/bin** : The morpho and morphoview executables are placed here."
+msgstr ""
+
+#: src/installing_morpho.md:19
+msgid "**/usr/local/share/morpho** : Help files and modules are stored here."
+msgstr ""
+
+#: src/installing_morpho.md:21
+msgid ""
+"**/usr/local/include/morpho** : Morpho header files for building extensions."
+msgstr ""
+
+#: src/installing_morpho.md:23
+msgid "**/usr/local/lib/morpho** : Morpho extensions."
+msgstr ""
+
+#: src/installing_morpho.md:25
+msgid ""
+"**Note**: On the macOS, these files are contained within the homebrew system."
+msgstr ""
+
+#: src/installing_morpho.md:27
+msgid ""
+"It's possible to build _morpho_ to use different locations for resources and "
+"the binary. To do so, set the `MORPHORESOURCESDIR` option when you run make, "
+"e.g."
+msgstr ""
+
+#: src/installing_morpho.md:33
+msgid ""
+"where X is the base folder you wish to use, i.e. the replacement for **/usr/"
+"local**. Subfolders will be created by the installer. To control where the "
+"_morpho_ binary is placed, also set the `DESTDIR` option,"
+msgstr ""
+
+#: src/installing_morpho.md:39
+msgid "Dependencies"
+msgstr ""
+
+#: src/installing_morpho.md:41
+msgid "_Morpho_ leverages a few libraries to provide certain functionality:"
+msgstr ""
+
+#: src/installing_morpho.md:43
+msgid ""
+"**glfw** : is used to provide gui functionality for an interactive "
+"visualization application, `morphoview`."
+msgstr ""
+
+#: src/installing_morpho.md:45
+msgid "**blas/lapack** : are used for dense linear algebra."
+msgstr ""
+
+#: src/installing_morpho.md:47
+msgid "**suitesparse** : is used for sparse linear algebra."
+msgstr ""
+
+#: src/installing_morpho.md:49
+msgid ""
+"See <https://people.engr.tamu.edu/davis/suitesparse.html> and publications "
+"for details"
+msgstr ""
+
+#: src/installing_morpho.md:51
+msgid "**freetype** : provides text display."
+msgstr ""
+
+#: src/installing_morpho.md:53
+msgid ""
+"**povray** : is a ray-tracer that is used for publication-quality graphics."
+msgstr ""
+
+#: src/installing_morpho.md:55
+msgid "macOS"
+msgstr ""
+
+#: src/installing_morpho.md:57
+msgid ""
+"The recommended approach to installing morpho on macOS is to use the "
+"[Homebrew](https://brew.sh) package manager."
+msgstr ""
+
+#: src/installing_morpho.md:60
+msgid ""
+"If you have a previous installation of morpho, we recommend you remove it by "
+"following the instructions for uninstalling _morpho_ below."
+msgstr ""
+
+#: src/installing_morpho.md:64
+msgid ""
+"Install [Homebrew](https://brew.sh), following instructions on the homebrew "
+"site."
+msgstr ""
+
+#: src/installing_morpho.md:67
+msgid "In the terminal type:"
+msgstr ""
+
+#: src/installing_morpho.md:73
+msgid ""
+"You may be prompted by homebrew to install additional components. For some "
+"users, it may be necessary to install XCode from the App Store."
+msgstr ""
+
+#: src/installing_morpho.md:77
+msgid ""
+"We also recommend that you obtain the morpho git repository, because it "
+"contains the manual, examples and other useful materials that aren't "
+"installed by homebrew."
+msgstr ""
+
+#: src/installing_morpho.md:81 src/installing_morpho.md:113
+#: src/installing_morpho.md:158
+msgid ""
+"```\n"
+"git clone https://github.com/Morpho-lang/morpho.git\n"
+"```"
+msgstr ""
+
+#: src/installing_morpho.md:83
+msgid "macOS (Manual Installation)"
+msgstr ""
+
+#: src/installing_morpho.md:85
+msgid ""
+"If you ever need to do a manual installation, for example if you want to use "
+"the cutting edge `dev` branch of morpho, you should follow these "
+"instructions. If you have an Intel mac, you should omit the `-f Makefile.m1` "
+"flags in the make command below. Note also that some users may need to "
+"preface"
+msgstr ""
+
+#: src/installing_morpho.md:93
+msgid "with the sudo command:"
+msgstr ""
+
+#: src/installing_morpho.md:97
+msgid ""
+"Install the [Homebrew](https://brew.sh) package manager, following "
+"instructions on the homebrew site."
+msgstr ""
+
+#: src/installing_morpho.md:100
+msgid ""
+"**If you previously installed morpho using homebrew, you must first remove "
+"it. This step is vitally important as the two installed versions may cause "
+"conflicts.**"
+msgstr ""
+
+#: src/installing_morpho.md:106
+msgid "Install dependencies. Open the Terminal application and type:"
+msgstr ""
+
+#: src/installing_morpho.md:111 src/installing_morpho.md:156
+msgid "Obtain the source by cloning the github public repository:"
+msgstr ""
+
+#: src/installing_morpho.md:115
+msgid ""
+"Navigate to the `morpho5` folder within the downloaded repository and build "
+"the application"
+msgstr ""
+
+#: src/installing_morpho.md:121
+msgid "Some users may need to use `sudo make install`"
+msgstr ""
+
+#: src/installing_morpho.md:123
+msgid "Navigate to the `morphoview` folder and build the viewer application"
+msgstr ""
+
+#: src/installing_morpho.md:128 src/installing_morpho.md:172
+msgid "Check that the application works by typing"
+msgstr ""
+
+#: src/installing_morpho.md:132
+msgid ""
+"**If you wish to switch back to a homebrew install, follow the instructions "
+"below to uninstall morpho to prevent version conflicts.**"
+msgstr ""
+
+#: src/installing_morpho.md:135
+msgid "Linux"
+msgstr ""
+
+#: src/installing_morpho.md:137
+msgid ""
+"Building on Linux is similar to the macOS manual install. Here we give "
+"commands for Ubuntu, which uses the `apt` package manager. On other "
+"distributions you will need to find the equivalent packages."
+msgstr ""
+
+#: src/installing_morpho.md:141
+msgid "Make sure your version of apt is up to date."
+msgstr ""
+
+#: src/installing_morpho.md:146
+msgid ""
+"Ensure you have basic developer tools installed. Some distributions omit "
+"these to save space."
+msgstr ""
+
+#: src/installing_morpho.md:151
+msgid ""
+"Install _morpho_'s dependencies using your distribution's package manager "
+"(or manually if you prefer):"
+msgstr ""
+
+#: src/installing_morpho.md:160
+msgid ""
+"Navigate to the `morpho5` folder within the downloaded repository and build "
+"the application:"
+msgstr ""
+
+#: src/installing_morpho.md:166
+msgid "Navigate to the `morphoview` folder and build the viewer application:"
+msgstr ""
+
+#: src/installing_morpho.md:176
+msgid "Windows via Windows Subsystem for Linux (WSL)"
+msgstr ""
+
+#: src/installing_morpho.md:178
+msgid "Install WSL"
+msgstr ""
+
+#: src/installing_morpho.md:180
+msgid ""
+"If you don't have WSL2 installed on your Windows computer, [follow the "
+"instructions to install the Ubuntu App](https://ubuntu.com/tutorials/install-"
+"ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview). Follow all the "
+"steps in this link to ensure that graphics are working."
+msgstr ""
+
+#: src/installing_morpho.md:185
+msgid "Install Morpho"
+msgstr ""
+
+#: src/installing_morpho.md:187
+msgid ""
+"Once the Ubuntu terminal is working in Windows, you can install _morpho_ the "
+"same way as in Linux by running the commands in the instructions in the "
+"Ubuntu terminal."
+msgstr ""
+
+#: src/installing_morpho.md:191
+msgid "**If you are using WSL2, then the installation is complete.**"
+msgstr ""
+
+#: src/installing_morpho.md:193
+msgid "Graphics On WSL1"
+msgstr ""
+
+#: src/installing_morpho.md:195
+msgid ""
+"If you instead are working on WSL1, then you need to follow these "
+"instructions to get graphics running. Unless mentioned otherwise, all the "
+"commands below are run in the Ubuntu terminal."
+msgstr ""
+
+#: src/installing_morpho.md:199
+msgid ""
+"A window manager must be installed so that the WSL can create windows. On "
+"Windows, install [VcXsrv](https://sourceforge.net/projects/vcxsrv/). It "
+"shows up as XLaunch in the Windows start menu."
+msgstr ""
+
+#: src/installing_morpho.md:204
+msgid "Open Xlaunch. Then,"
+msgstr ""
+
+#: src/installing_morpho.md:206
+msgid "choose 'Multiple windows', set display number to 0, and hit 'Next'"
+msgstr ""
+
+#: src/installing_morpho.md:209
+msgid "choose 'start no client' and hit 'Next'"
+msgstr ""
+
+#: src/installing_morpho.md:211
+msgid "**Unselect** 'native opengl' and hit 'Next'"
+msgstr ""
+
+#: src/installing_morpho.md:213
+msgid "Hit 'Finish'"
+msgstr ""
+
+#: src/installing_morpho.md:215
+msgid ""
+"In Ubuntu download a package containing a full suite of desktop utilities "
+"that allows for the use of windows."
+msgstr ""
+
+#: src/installing_morpho.md:220
+msgid "Tell ubuntu which display to use"
+msgstr ""
+
+#: src/installing_morpho.md:224
+msgid "To set the DISPLAY variable on login type"
+msgstr ""
+
+#: src/installing_morpho.md:228
+msgid ""
+"_\\[Note that this assumes you are using bash as your terminal; you will may "
+"to adjust this line for other terminals\\]._"
+msgstr ""
+
+#: src/installing_morpho.md:231
+msgid "Test that the window system is working by running"
+msgstr ""
+
+#: src/installing_morpho.md:235
+msgid "which should open a window with some gears."
+msgstr ""
+
+#: src/installing_morpho.md:237
+msgid ""
+"**Test the thomson example program.** Navigate to the thomson example in the "
+"examples directory and run it. If you are in the `morphoview` directory."
+msgstr ""
+
+#: src/installing_morpho.md:244
+msgid ""
+"This example starts with randomly distributed charges on a sphere and "
+"minimizing electric potential. It should generate an interactive figure of "
+"points on a sphere."
+msgstr ""
+
+#: src/installing_morpho.md:248
+msgid "Updating _morpho_"
+msgstr ""
+
+#: src/installing_morpho.md:250
+msgid ""
+"As new versions of _morpho_ are released, you will likely want to upgrade to "
+"the latest version. From the terminal:"
+msgstr ""
+
+#: src/installing_morpho.md:253
+msgid "If you used homebrew to install morpho, simply type,"
+msgstr ""
+
+#: src/installing_morpho.md:257
+msgid ""
+"If you installed _morpho_ manually, and still have the git repository folder "
+"on your computer, navigate to this with `cd` and type,"
+msgstr ""
+
+#: src/installing_morpho.md:263
+msgid ""
+"which downloads any updates. You can then follow the above instructions to "
+"recompile _morpho._ It's not necessary to reinstall dependencies, but note "
+"that some new releases of _morpho_ may require additional dependencies."
+msgstr ""
+
+#: src/installing_morpho.md:268
+msgid ""
+"If you no longer have the original _morpho_ git repository folder from which "
+"you installed morpho, simply rerun the installation from scratch as above. "
+"You shouldn't need to reinstall dependencies."
+msgstr ""
+
+#: src/installing_morpho.md:272
+msgid "Uninstalling _morpho_"
+msgstr ""
+
+#: src/installing_morpho.md:274
+msgid ""
+"If you wish to uninstall morpho, you can do so simply from the terminal "
+"application."
+msgstr ""
+
+#: src/installing_morpho.md:277
+msgid "If you used homebrew to install morpho, simply type"
+msgstr ""
+
+#: src/installing_morpho.md:281
+msgid ""
+"Alternatively, if you did a manual install, you can remove everything with"
+msgstr ""
+
+#: src/installing_morpho.md:289
+msgid "You may need to prefix these with `sudo`."
+msgstr ""
+
+#: src/using_morpho_translated.md:2
+msgid "Usando _morpho_"
+msgstr ""
+
+#: src/using_morpho_translated.md:4
+msgid ""
+"_Morpho_ es una aplicación de línea de comandos, como `python` o` lua`. "
+"Puede ser utilizado para ejecutar scripts o programas, que generalmente se "
+"les da el _.morpho_ Extensión del archivo, o ejecutar interactivamente "
+"respondiendo al usuario comandos."
+msgstr ""
+
+#: src/using_morpho_translated.md:10
+msgid "Ejecutar un programa"
+msgstr ""
+
+#: src/using_morpho_translated.md:12
+msgid ""
+"Para ejecutar un programa, simplemente ejecute Morpho con el nombre del "
+"archivo,"
+msgstr ""
+
+#: src/using_morpho_translated.md:18
+msgid "_Morpho_ admite una serie de interruptores:"
+msgstr ""
+
+#: src/using_morpho_translated.md:20
+msgid "\\-Wor"
+msgstr ""
+
+#: src/using_morpho_translated.md:22
+msgid ""
+": Ejecutar _morpho_ con más de un hilo de trabajador, p. `-W 4` corre Morpho "
+"con 4 hilos."
+msgstr ""
+
+#: src/using_morpho_translated.md:26
+msgid "\\-D"
+msgstr ""
+
+#: src/using_morpho_translated.md:28
+msgid ""
+": Mostrar el desmontaje del programa sin ejecutarlo. \\_\\[Ver Guía del "
+"desarrollador\\] _"
+msgstr ""
+
+#: src/using_morpho_translated.md:32
+msgid "\\-d"
+msgstr ""
+
+#: src/using_morpho_translated.md:34
+msgid ""
+":   Modo de depuración. Morpho se detendrá e ingresará al depurador cada vez "
+"que un `@` se encuentra en la fuente. \\_ \\[Ver guía del desarrollador\\] _"
+msgstr ""
+
+#: src/using_morpho_translated.md:39
+msgid "\\-pag"
+msgstr ""
+
+#: src/using_morpho_translated.md:41
+msgid ""
+": Perfil La ejecución del programa. Útil para identificar el rendimiento "
+"cuellos de botella. \\_ \\[Ver guía del desarrollador\\] _"
+msgstr ""
+
+#: src/using_morpho_translated.md:46
+msgid "Modo interactivo"
+msgstr ""
+
+#: src/using_morpho_translated.md:48
+msgid ""
+"Para usar _morpho_ de manera interactiva, simplemente cargue la aplicación "
+"_erminal_ (o equivalente a su sistema) y escriba"
+msgstr ""
+
+#: src/using_morpho_translated.md:55
+msgid "Interfaz de línea de comandos para morfo"
+msgstr ""
+
+#: src/using_morpho_translated.md:57
+msgid ""
+"! \\[Interfaz de línea de comandos para morfo\\] (./ figures/commandline.jpg)"
+msgstr ""
+
+#: src/using_morpho_translated.md:59
+msgid ""
+"Como se muestra en la figura anterior, (Fig. \\[Fig: CLI\\] (#-línea de "
+"comandos-interfaz-para-morfo)), será recibido por una breve bienvenida y un "
+"Solicitud> Invitarlo a ingresar los comandos _morpho_. Por ahora, prueba un "
+"clásico:"
+msgstr ""
+
+#: src/using_morpho_translated.md:64
+msgid ""
+"```\n"
+"print \"Hello World\"\n"
+"```"
+msgstr ""
+
+#: src/using_morpho_translated.md:68
+msgid ""
+"que mostrará `Hello World` como salida. Más información sobre el El lenguaje "
+"_morpho_ se proporciona en la sección de referencia, especialmente Capítulo "
+"\\[idioma\\] (./ reference/idioma.md) Si está familiarizado con los idiomas "
+"de C como C, C ++, Java, JavaScript, etc. Las cosas deben ser bastante "
+"familiares."
+msgstr ""
+
+#: src/using_morpho_translated.md:74
+msgid ""
+"Para ayudar al usuario, el contenido del manual de referencia está "
+"disponible al usuario en modo interactivo como ayuda en línea. Para obtener "
+"ayuda, simplemente tipo:"
+msgstr ""
+
+#: src/using_morpho_translated.md:83
+msgid "o incluso más brevemente,"
+msgstr ""
+
+#: src/using_morpho_translated.md:89
+msgid ""
+"Para ver la lista de temas principales. Para encontrar ayuda sobre un tema "
+"en particular, para Ejemplo `for` bucles, simplemente escriba el nombre del "
+"tema después:"
+msgstr ""
+
+#: src/using_morpho_translated.md:97
+msgid "Una vez que haya terminado de usar _morpho_, simplemente escriba"
+msgstr ""
+
+#: src/using_morpho_translated.md:103
+msgid "para salir del programa y volver al shell."
+msgstr ""
+
+#: src/using_morpho_translated.md:105
+msgid ""
+"El entorno interactivo tiene algunas otras características útiles para "
+"ayudar el usuario:"
+msgstr ""
+
+#: src/using_morpho_translated.md:108
+msgid ""
+"\\*** Autocompletar. ** Como escribe, _morpho_ le mostrará cualquier "
+"sugerido Comandos que cree que estás tratando de ingresar. Por ejemplo, si "
+"tu Tipo `V` La línea de comando mostrará la palabra clave` var`. Para "
+"aceptar el Sugerencia, presione la tecla Tab. Múltiples sugerencias pueden "
+"ser disponible; Use las teclas de flecha hacia arriba y hacia abajo para "
+"rotar a través de ellas. \\*** Historial de comando. ** Use las teclas de "
+"flecha para recuperar anteriormente comandos ingresados. Luego puede "
+"editarlos antes de ejecutarlos. \\*** Edición de línea. ** Mientras escribe "
+"un comando, usa la izquierda y la derecha flechas para mover el cursor; "
+"Puedes insertar nuevos caracteres en el cursor simplemente escribiéndolos o "
+"eliminando caracteres con el Clave de `eliminar '. Mantenga presionada la "
+"tecla `Shift 'mientras usa la izquierda y teclas de flecha derecha para "
+"seleccionar texto; Entonces puede usar`ctrl-c` para copiar y `Ctrl-V` para "
+"pegar. `CTRL-A` se mueve al comienzo de la línea y `Ctrl-e` el final."
+msgstr ""
+
+#: src/tutorial_translated.md:4
+msgid ""
+"Para ilustrar cómo usar _morpho_, resolveremos un problema que involucre "
+"Cristales líquidos nemáticos (NLC), fluidos compuestos de moléculas largas y "
+"rígidas que posee una orientación molecular promedio local descrita por una "
+"unidad Vector Field \\ (\\ Mathbf {n} ). Gotas de NLC inmersas en un "
+"anfitrión El fluido isotrópico como el agua se llama _tactoids_ y, a "
+"diferencia de las gotas de, digamos, aceite en agua que forma esferas, los "
+"tactoides pueden adoptar alargados formas."
+msgstr ""
+
+#: src/tutorial_translated.md:13
+msgid ""
+"Lo funcional a minimizar, la energía libre del sistema es bastante complejo,"
+msgstr ""
+
+#: src/tutorial_translated.md:16
+msgid ""
+"$$ \\\\ begin {ecuación} F = \\ subbacial {\\ frac {1} {2} \\ int\\_ {c} "
+"k\\_ {11} \\ izquierdo (\\ nabla \\ cdot \\ mathbf {n} \\ right)^{2}+k\\_ "
+"{22} (\\ mathbf { n} \\ cdot \\ nabla \\ times \\ mathbf {n})^{2}+k\\_ {33} "
+"\\ izquierdo | \\ mathbf {n} \\ times \\ nabla \\ times \\ mathbf {n} \\ "
+"right |^{2} da } _ \\ text {Liquid Crystal Elastic Energy} \\ Label {Eq: "
+"Free} \\\\ end {ecuación} $$"
+msgstr ""
+
+#: src/tutorial_translated.md:24
+msgid ""
+"$$ \\\\ begin {ecuation\\_} \\\\ quad + \\ subbacial {\\ sigma \\ int dl} _ "
+"\\ text {s.t.} \\\\ End {Ecation\\_} $$"
+msgstr ""
+
+#: src/tutorial_translated.md:30
+msgid ""
+"$$ \\\\ begin {ecuation\\_} \\\\ quad + \\ subbacace {\\ frac {w} {2} \\ int "
+"\\ left (\\ mathbf {n} \\ cdot \\ mathbf {t} \\ right)^{2} dl} _ \\ text "
+"{Anchoring} \\\\ End {Ecation\\_} $$"
+msgstr ""
+
+#: src/tutorial_translated.md:36
+msgid ""
+"donde los tres términos incluyen ** elasticidad de cristal líquido ** que "
+"impulsa el alargamiento de la gota, ** superficie tensión ** _ (s.t.) _ que "
+"se opone al alargamiento del límite y un \\** Término de anclaje ** que "
+"impone una orientación preferida en el límite. Necesitamos una restricción "
+"local, \\ (\\ mathbf {n} \\ cdot \\ mathbf {n} = 1 ), y también lo hará "
+"imponer una restricción en el volumen de la gota. Por simplicidad, Resuelve "
+"este problema en 2d. El código completo para este ejemplo de tutorial es "
+"contenido en la carpeta `ejemplos/tactoide` en el repositorio."
+msgstr ""
+
+#: src/tutorial/importing_modules_translated.md:2
+msgid "Módulos de importación"
+msgstr ""
+
+#: src/tutorial/importing_modules_translated.md:4
+msgid ""
+"_Morpho_ es un sistema modular y, por lo tanto, normalmente comenzamos "
+"nuestro programa por decir _morpho_ los módulos que necesitamos para que "
+"estén disponibles para que nosotros usar. Para hacerlo, utilizamos la "
+"palabra clave 'import' seguida del nombre del módulo:"
+msgstr ""
+
+#: src/tutorial/importing_modules_translated.md:16
+msgid ""
+"También podemos usar la palabra clave `import` para importar archivos de "
+"programa adicionales para ayudar en modularizar grandes programas. Estos son "
+"los módulos que Use para este ejemplo:"
+msgstr ""
+
+#: src/tutorial/importing_modules_translated.md:21
+msgid "Módulo"
+msgstr ""
+
+#: src/tutorial/importing_modules_translated.md:21
+msgid "Propósito"
+msgstr ""
+
+#: src/tutorial/importing_modules_translated.md:24
+msgid ""
+"\\| `MeshTools` | Código de utilidad para crear y refinar mallas \\| "
+"`Optimize` | realizar optimización \\| `Plot` | Visualizar los resultados"
+msgstr ""
+
+#: src/tutorial/creating_the_initial_mesh_translated.md:2
+msgid "Crear la malla inicial"
+msgstr ""
+
+#: src/tutorial/creating_the_initial_mesh_translated.md:18
+msgid ""
+"Las mallas son regiones discretizadas del espacio. La región más simple que "
+"podemos Imagine es un _point_ o _vertex_ descrito por un conjunto de "
+"coordenadas \\\\ (((x\\_ {1}, x\\_ {2}, ...., x\\_ {d}) ) donde el número de "
+"coordenadas \\ (d ) define la dimensionalidad del espacio que se dice que el "
+"colector es _embedded_ in. Desde más de un punto, podemos comenzar a "
+"construir más regiones complejas. Primero, entre dos puntos podemos imaginar "
+"arreglar un Regla imaginaria y dibujar una línea recta o _edge_ entre ellos. "
+"Tres puntos definen un avión y también un triángulo; por lo tanto podemos "
+"Identificar el área bidimensional del plano limitado por el triángulo como "
+"un _face_, como frente a un poliedro. Usando cuatro puntos, podemos Defina "
+"el volumen limitado por un tetraedro. Cada uno de estos ** elementos ** "
+"tiene una dimensionalidad diferente que se ha presentado a _grade_ y un "
+"`mesh` puede completo contienen elementos de muchos grados diferentes como "
+"se muestra en la Fig. \\[4.2\\] (#fig: malla)."
+msgstr ""
+
+#: src/tutorial/creating_the_initial_mesh_translated.md:38
+msgid ""
+"_Morpho_ proporciona varias formas de crear una malla. Uno puede cargar un "
+"malla a partir de un archivo, construya uno manualmente a partir de un "
+"conjunto de puntos, cree uno de un poliedro, o del conjunto de niveles "
+"(contornos) de una función."
+msgstr ""
+
+#: src/tutorial/creating_the_initial_mesh_translated.md:43
+msgid ""
+"Para este ejemplo, utilizaremos un archivo de malla predefinido `disk.mesh`. "
+"A Crear un objeto de malla desde este archivo, llamamos a la función _mesh_ "
+"con el nombre del archivo:"
+msgstr ""
+
+#: src/tutorial/creating_the_initial_mesh_translated.md:49
+msgid "\"disk.mesh\""
+msgstr ""
+
+#: src/tutorial/creating_the_initial_mesh_translated.md:52
+msgid ""
+"Aquí, la palabra clave ** var ** le dice a Morpho que cree una nueva "
+"variable _m_, que ahora se refiere al objeto _mesh_ recién creado."
+msgstr ""
+
+#: src/tutorial/creating_the_initial_mesh_translated.md:64
+msgid ""
+"La malla inicial es representado en la Fig. \\[4.3\\] (#Fig: InitialMesh); "
+"Proporcionaremos el código para realizar el Visualización en la sección "
+"\\[Visualizando los resultados\\] (./ Visualizing_The_Results.md)."
+msgstr ""
+
+#: src/tutorial/creating_the_initial_mesh_translated.md:70
+msgid ""
+"Si abre el archivo `disk.mesh`, que puede encontrar en la misma carpeta Como "
+"`tactoide.morpho`, encontrarás que tiene un formato legible humano simple:"
+msgstr ""
+
+#: src/tutorial/creating_the_initial_mesh_translated.md:91
+msgid ""
+"El archivo se divide en secciones, cada uno describiendo elementos de un "
+"Grado diferente. Cada línea comienza con un delimitador de sección como como "
+"_Evertices_, _Edges_ o _faces_, o con una ID. Los vértices son entonces "
+"definido por un conjunto de coordenadas; Los bordes y las caras se definen "
+"por proporcionando las respectivas ID de vértice."
+msgstr ""
+
+#: src/tutorial/selections_translated.md:2
+msgid "Selecciones"
+msgstr ""
+
+#: src/tutorial/selections_translated.md:4
+msgid ""
+"A veces, queremos referirnos a partes específicas de un objeto `Mesh`: "
+"elementos que coinciden con algún criterio, por ejemplo. Objetos `selección "
+"' permitirnos hacer esto. Porque seleccionar el límite es muy común "
+"Actividad, la función del constructor `selección\\` toma una opcional "
+"argumento para hacer esto:"
+msgstr ""
+
+#: src/tutorial/selections_translated.md:16
+msgid ""
+"Por defecto, solo los elementos límite se incluyen en la 'selección'. Para "
+"una malla con la mayoría de los elementos de grado 2 (facetas), los límites "
+"son elementos de grado 1 (líneas); para una malla con elementos de grado 3 "
+"(volúmenes), Los límites son elementos de grado 2 (facetas). Muy a menudo "
+"queremos el Vértices mismos también, por lo que podemos llamar a un método "
+"para lograrlo:"
+msgstr ""
+
+#: src/tutorial/selections_translated.md:28
+msgid ""
+"Una vez que se ha creado una 'selección', puede ser útil visualizarlo Para "
+"asegurarse de que se seleccionen los elementos correctos. Hablaremos más de "
+"Visualización en la sección \\[Visualizando resultados\\] (./ "
+"Visualizing_The_Results.md), pero por ahora la línea"
+msgstr ""
+
+#: src/tutorial/selections_translated.md:38
+msgid ""
+"muestra una visualización de la malla con los elementos de grado 1 "
+"seleccionados Rojo sombreado como se muestra en la fig. \\[4.4\\] (#Fig: "
+"Boundary) {reference-type = \"ref\" reference = \"fig: límite\"}."
+msgstr ""
+
+#: src/tutorial/selections_translated.md:42
+msgid ""
+"! \\[Selección\\] (../ figuras/tutoriales/2Visualize/Selection.png) \\_ "
+"Seleccionar el límite de la malla\\_"
+msgstr ""
+
+#: src/tutorial/fields_translated.md:2
+msgid "Campos"
+msgstr ""
+
+#: src/tutorial/fields_translated.md:4
+msgid ""
+"Habiendo creado nuestro dominio computacional inicial, ahora crearemos un "
+"Objeto `Field` que representa el campo Director \\ (\\ Mathbf {n} )::"
+msgstr ""
+
+#: src/tutorial/fields_translated.md:11
+msgid ""
+"Al igual que con el objeto `mesh` anterior, declaramos una variable, _nn_, "
+"referir al objeto 'campo'. Tenemos que proporcionar dos argumentos a "
+"'Field': el Objeto `mesh` en el que se define el 'campo' y algo para "
+"inicializarlo. Aquí, queremos que el director inicial tenga un valor "
+"uniforme, por lo que podemos proporcionar `campo 'una` Matrix\\` constante "
+"objeto. Por defecto, _morpho_ almacena una copia de esta matriz en cada "
+"vértice en la malla; Sin embargo, los campos pueden almacenar información "
+"sobre elementos de cualquier Grado (y almacene tanto más de una cantidad por "
+"grado e información en varios grados al mismo tiempo)."
+msgstr ""
+
+#: src/tutorial/fields_translated.md:25
+msgid ""
+"Es posible inicializar un 'campo' con valores espacialmente variables por "
+"Proporcionar una función _anónima_ a \\`campo 'así:"
+msgstr ""
+
+#: src/tutorial/fields_translated.md:32
+msgid ""
+"Aquí, _phi_ es un campo escalar que toma el valor \\ (x^{2}+y^{2} ). El \\** "
+"FN ** Se usa la palabra clave para definir funciones."
+msgstr ""
+
+#: src/tutorial/defining_the_problem_translated.md:2
+msgid "Definiendo el problema"
+msgstr ""
+
+#: src/tutorial/defining_the_problem_translated.md:4
+msgid ""
+"Ahora recurrimos a configurar el problema. Cada término en la energía "
+"funcional \\[(1)\\] (../ tutorial.md#eq: free) está representado por un "
+"_functional_ correspondiente objeto, que actúa sobre una `mesh` (y "
+"posiblemente un 'campo') para calcular un cantidad integral como una "
+"energía; Los objetos funcionales también son responsable de calcular los "
+"gradientes de la energía con respecto a Posiciones de vértice y componentes "
+"de los campos."
+msgstr ""
+
+#: src/tutorial/defining_the_problem_translated.md:13
+msgid ""
+"Tomemos los términos en \\[(1)\\] (../ tutorial.md#eq: gratis) uno por uno: "
+"para representar la elasticidad nemática nosotros Crea un objeto 'Nematic\\`:"
+msgstr ""
+
+#: src/tutorial/defining_the_problem_translated.md:20
+msgid ""
+"El término de tensión superficial implica la longitud del límite, por lo que "
+"necesitamos un objeto `longitud`:"
+msgstr ""
+
+#: src/tutorial/defining_the_problem_translated.md:27
+msgid ""
+"El término de anclaje no tiene un tipo de objeto incorporado simple, pero "
+"nosotros puede usar un objeto `LineIngal` general\" para lograr el resultado "
+"correcto."
+msgstr ""
+
+#: src/tutorial/defining_the_problem_translated.md:34
+msgid ""
+"Observe que tenemos que proporcionar una función que la integrandia será "
+"llamado por `LineIngal` cuando evalúa la integral. Integrar Las funciones se "
+"llaman primero con las coordenadas locales (como una 'matriz' objeto que "
+"representa un vector de columna) y luego el local interpolado valor de "
+"cualquier número de `campos '. También hacemos uso del especial función "
+"`tangent ()\\` que localmente devuelve una tangente local a la línea."
+msgstr ""
+
+#: src/tutorial/defining_the_problem_translated.md:43
+msgid ""
+"También necesitamos imponer restricciones. Se puede usar cualquier objeto "
+"_functional_ igualmente bien como una energía o una restricción, y por lo "
+"tanto creamos un Objeto `Normsq` (Norm cuadrado) que se utilizará para "
+"implementar el local restricción vectorial unitaria en el campo Director:"
+msgstr ""
+
+#: src/tutorial/defining_the_problem_translated.md:53
+msgid ""
+"y un objeto de 'área' para la restricción global. Esto es realmente un "
+"restricción fija el volumen de fluido en la gota, pero como estamos en 2D "
+"que se convierte en una restricción en el área de la malla:"
+msgstr ""
+
+#: src/tutorial/defining_the_problem_translated.md:62
+msgid ""
+"Ahora tenemos una colección de objetos funcionales que podemos usar para "
+"definir el problema. Hasta ahora, no hemos especificado qué funcionales son "
+"energías y que son restricciones; ni hemos especificado qué partes de la "
+"malla Los funcionales deben ser evaluados. Toda esa información es "
+"recopilado en un objeto 'OptimizationProblem\\`, que ahora crearemos:"
+msgstr ""
+
+#: src/tutorial/defining_the_problem_translated.md:71
+msgid ""
+"```\n"
+"// Set up the optimization problem\n"
+"var W = 1\n"
+"var sigma = 1\n"
+"\n"
+"var problem = OptimizationProblem(m)\n"
+"problem.addenergy(lf)\n"
+"problem.addenergy(la, selection=bnd, prefactor=-W/2)\n"
+"problem.addenergy(lt, selection=bnd, prefactor=sigma)\n"
+"problem.addconstraint(laa)\n"
+"problem.addlocalconstraint(ln, field=nn, target=1)\n"
+"```"
+msgstr ""
+
+#: src/tutorial/defining_the_problem_translated.md:84
+msgid ""
+"Observe que algunos de estos funcionales solo actúan en una selección como "
+"el límite y, por lo tanto, usamos el parámetro \\`selección 'opcional para "
+"especificar esto. También podemos especificar el prefactor del funcional."
+msgstr ""
+
+#: src/tutorial/performing_the_optimization_translated.md:2
+msgid "Realizar la optimización"
+msgstr ""
+
+#: src/tutorial/performing_the_optimization_translated.md:4
+msgid ""
+"Ahora estamos listos para realizar la optimización, para lo cual necesitamos "
+"un Objeto `Optimizer`. Estos vienen en dos sabores: un `sapeOptimizer` y un "
+"`FieldOptimizer` que actúa respectivamente sobre la forma y un campo. "
+"Nosotros Crearlos con el problema y la cantidad en las que se supone que "
+"deben actuar:"
+msgstr ""
+
+#: src/tutorial/performing_the_optimization_translated.md:12
+msgid "// Create shape and field optimizers\n"
+msgstr ""
+
+#: src/tutorial/performing_the_optimization_translated.md:17
+msgid ""
+"Habiendo creado estos, podemos realizar la optimización llamando al Método "
+"`LineSearch` con un número especificado de iteraciones para cada uno:"
+msgstr ""
+
+#: src/tutorial/performing_the_optimization_translated.md:21
+msgid "// Optimization loop\n"
+msgstr ""
+
+#: src/tutorial/performing_the_optimization_translated.md:28
+msgid ""
+"Cada iteración de un `linearch` evoluciona el campo (o forma) hacia abajo en "
+"el gradiente del objetivo funcional, sujeto a restricciones y encuentra un "
+"pasos de tamaño óptimo para reducir el valor de lo funcional. Aquí nosotros "
+"Alternar entre optimizar el campo y optimizar la forma, realizar veinte "
+"iteraciones de cada uno, y en general haz esto cien veces. Estos números han "
+"sido elegidos bastante arbitrariamente, y si Mire la salida, notará que "
+"_morpho_ no siempre se ejecuta Veinte iteraciones de cada uno. Más bien, en "
+"cada iteración verifica si El cambio de energía satisface, $$ | e | \\<\\\\ "
+"epsilon, $$ o, $$ \\ izquierda | \\ frac {\\ delta e} {e} \\ right | \\<\\\\ "
+"epsilon $$ donde el valor de \\\\ (\\ epsilon ), la tolerancia de "
+"convergencia se puede cambiar configurando el Propiedad `Etol` del objeto "
+"optimizador:"
+msgstr ""
+
+#: src/tutorial/performing_the_optimization_translated.md:45
+msgid "// default value is 1e-8\n"
+msgstr ""
+
+#: src/tutorial/performing_the_optimization_translated.md:48
+msgid ""
+"Algunas otras propiedades de un 'optimizador' que pueden ser útiles para que "
+"el usuario ajustar son los siguientes:"
+msgstr ""
+
+#: src/tutorial/performing_the_optimization_translated.md:51
+msgid ""
+"\\| Propiedad | Valor predeterminado | Propósito \\| ---------------------- "
+"| ------------------------ |-"
+msgstr ""
+
+#: src/tutorial/performing_the_optimization_translated.md:57
+msgid ""
+"\\| `Etol` | \\\\ (1 \\ Times10^{-8} ) | Tolerancia energética (error "
+"relativo) \\| `ctol` | \\\\ (1 \\ Times10^{-10} ) | Tolerancia a la "
+"restricción (qué tan bien se satisfacen las restricciones) \\| `Stepsize` | "
+"`0.1` | Stepsize para` relax` (cambiado por líneas en línea) \\| `StepLimit` "
+"| `0.5` | Las medidas más grandes que puede tomar un` linearch` \" \\| "
+"`maxConstraintsteps` | `20` | Número de pasos que el optimizador puede tomar "
+"para garantizar que se cumplan las restricciones \\| `CALIENTE '| `falso\\` "
+"| si imprimir la salida como ocurre la optimización"
+msgstr ""
+
+#: src/tutorial/visualizing_the_results_translated.md:2
+msgid "Visualización de resultados"
+msgstr ""
+
+#: src/tutorial/visualizing_the_results_translated.md:4
+msgid ""
+"_Morpho_ proporciona un sistema de gráficos altamente flexible, con un "
+"externo Aplicación del visor _morphoview_, para habilitar visualizaciones "
+"ricas de resultados. Las visualizaciones generalmente involucran uno o más "
+"'gráficos' objetos, que actúan como un contenedor para que los elementos "
+"gráficos sean desplegado. Varios _graphics primitives_, como esferas, "
+"cilindros, Las flechas, tubos, etc. se pueden agregar a un objeto 'gráficos' "
+"para hacer un dibujo."
+msgstr ""
+
+#: src/tutorial/visualizing_the_results_translated.md:14
+msgid ""
+"Ahora estamos listos para visualizar los resultados de la optimización. "
+"Primero, Dibujaremos la malla. Porque estamos interesados en ver la malla "
+"Estructura, dibujaremos los bordes (es decir, los elementos de grado 1). El "
+"La función para hacer esto se proporciona como parte del módulo \\`tram. "
+"importado en la sección \\[módulos de importación\\] (./ importing_modules."
+"md):"
+msgstr ""
+
+#: src/tutorial/visualizing_the_results_translated.md:27
+msgid ""
+"A continuación, crearemos un objeto 'Graphics`separado que contenga el "
+"director. Dado que el director \\ (\\ mathbf {n} ) es un campo vectorial "
+"unitario, y El signo no es significativo (la energía elástica nemática es en "
+"realidad invariante en \\ (\\ mathbf {n} \\ to- \\ mathbf {n} )), una forma "
+"apropiada para mostrar un solo director está como un cilindro orientado a lo "
+"largo de \\ (\\ mathbf {n} ). Por lo tanto, haremos una función de ayudante "
+"que cree un`gráficos\\` objeto y dibuja tal cilindro en cada punto de malla:"
+msgstr ""
+
+#: src/tutorial/visualizing_the_results_translated.md:37
+msgid ""
+"// Function to visualize a director field\n"
+"// m - the mesh \n"
+"// nn - the director Field to visualize\n"
+"// dl - scale the director \n"
+msgstr ""
+
+#: src/tutorial/visualizing_the_results_translated.md:43
+msgid "// Number of vertices\n"
+msgstr ""
+
+#: src/tutorial/visualizing_the_results_translated.md:44
+msgid "// Create a graphics object\n"
+msgstr ""
+
+#: src/tutorial/visualizing_the_results_translated.md:46
+msgid ""
+"// Get the ith vertex\n"
+"    // Draw a cylinder aligned with nn at this vertex\n"
+msgstr ""
+
+#: src/tutorial/visualizing_the_results_translated.md:54
+msgid "Una vez que hayamos definido esta función, podemos usarla:"
+msgstr ""
+
+#: src/tutorial/visualizing_the_results_translated.md:60
+msgid ""
+"Las variables \\ (g ) y \\ (GNN ) ahora se refieren a dos objetos gráficos "
+"separados. Podemos combinarlos usando el operador \\ (+) y mostrarlos así:"
+msgstr ""
+
+#: src/tutorial/visualizing_the_results_translated.md:77
+msgid ""
+"La visualización resultante se muestra en la Fig. \\[4.5\\] (#Fig: "
+"FinalResult)."
+msgstr ""
+
+#: src/tutorial/refinement_translated.md:2
+msgid "Refinamiento"
+msgstr ""
+
+#: src/tutorial/refinement_translated.md:4
+msgid ""
+"Ahora hemos resuelto nuestro primer problema de optimización de forma, y el "
+"Se proporciona un guión de problema completo en la carpeta `Ejemplos/"
+"Tutorial` Dentro del repositorio de git como `tutorial.morpho`. El resultado "
+"que tenemos obtenido en la Fig. \\[4.5\\] (#Fig: FinalResult) es, sin "
+"embargo, una resolución muy gruesa y muy gruesa Solución que comprende solo "
+"un número relativamente pequeño de elementos. Ganar Una solución mejorada, "
+"necesitamos _refine_ nuestra malla. Porque modificando La malla también "
+"requiere que actualicemos otras estructuras de datos como campos y "
+"selecciones, se utiliza un objeto especial `meshrefiner` para realizar el "
+"refinamiento."
+msgstr ""
+
+#: src/tutorial/refinement_translated.md:17
+msgid "Para realizar el refinamiento nosotros:"
+msgstr ""
+
+#: src/tutorial/refinement_translated.md:19
+msgid ""
+"Cree un objeto `meshrefiner`, proporcionándole una lista de todos los `Mesh`,"
+"` Field` y `Selection` objetos (es decir, la malla y los objetos que "
+"dependen directamente de él) que deben actualizarse: `` `JavaScript var mr = "
+"meshrefiner ([m, nn, bnd]); // Establecer el refinador `` ` `"
+msgstr ""
+
+#: src/tutorial/refinement_translated.md:26
+msgid ""
+"Llame al método `refine` en el objeto 'Meshrefiner`a realmente realizar el "
+"refinamiento. Este método devuelve un objeto`Diccionario``` Eso mapea los "
+"objetos viejos a los potencialmente recién creados. `` ```JavaScript var "
+"refMap = Mr.Refine (); // realizar el refinamiento ` ` \\``"
+msgstr ""
+
+#: src/tutorial/refinement_translated.md:34
+msgid ""
+"Dígale a cualquier otro objeto que se refiera a la malla, campos o "
+"selecciones para actualizar sus referencias usando `refmap`. Por ejemplo, "
+"Los objetos `OptimizationProblem` y` Optimizer` se actualizan típicamente en "
+"este paso. `` `JavaScript para (el en [problema, sopt, fopt]) el.update "
+"(refmap); // Actualizar el problema `` ` `"
+msgstr ""
+
+#: src/tutorial/refinement_translated.md:43
+msgid ""
+"Actualice nuestras propias referencias `` `JavaScript m = refmap [m]; nn = "
+"refmap [nn]; bnd = refmap [bnd]; // actualizar variables `` ` `"
+msgstr ""
+
+#: src/tutorial/refinement_translated.md:61
+msgid ""
+"Insertamos este código después de nuestra sección de optimización, que causa "
+"_morpho_ para optimizar y refinar sucesivamente."
+msgstr ""
+
+#: src/tutorial/refinement_translated.md:64
+msgid ""
+"El código completo que incluye el refinamiento está en la carpeta `ejemplos/"
+"tutoriales` dentro del repositorio de git como` tutorial2.morpho`"
+msgstr ""
+
+#: src/tutorial/refinement_translated.md:66
+msgid ""
+"La resultante Las formas optimizadas se muestran en la Fig. \\[4.6\\] (#Fig: "
+"refinamiento)."
+msgstr ""
+
+#: src/tutorial/refinement_translated.md:69
+msgid ""
+"```\n"
+"// Optimization loop\n"
+"var refmax = 3\n"
+"for (refiter in 1..refmax) {\n"
+"  print \"===Refinement level ${refiter}===\"\n"
+"  for (i in 1..100) {\n"
+"    fopt.linesearch(20)\n"
+"    sopt.linesearch(20)\n"
+"  }\n"
+"\n"
+"  if (refiter==refmax) break\n"
+"\n"
+"  // Refinement\n"
+"  var mr=MeshRefiner([m, nn, bnd]) // Set the refiner up\n"
+"  var refmap=mr.refine() // Perform the refinement\n"
+"  for (el in [problem, sopt, fopt]) el.update(refmap) // Update the problem\n"
+"  m=refmap[m]; nn=refmap[nn]; bnd=refmap[bnd] // Update variables\n"
+"}\n"
+"```"
+msgstr ""
+
+#: src/tutorial/next_steps_translated.md:2
+msgid "Próximos pasos"
+msgstr ""
+
+#: src/tutorial/next_steps_translated.md:4
+msgid ""
+"Habiendo completado este tutorial, es posible que desee explorar el efecto "
+"de Cambiar algunos de los parámetros en el archivo. ¿Qué pasa si cambias? "
+"`Sigma` y W, ¿los coeficientes frente a los términos en la energía? ¿Qué "
+"sucede si toma un número diferente de pasos? O cambiar ¿Propiedades de los "
+"optimizadores como 'Stepesize` y' StepLimit`?"
+msgstr ""
+
+#: src/tutorial/next_steps_translated.md:12
+msgid ""
+"Debe mirar otros archivos de ejemplo proporcionados en la carpeta 'Ejemplos' "
+"del repositorio Git. El resto del manual comprende capítulos explorar "
+"ciertos conceptos _morpho_ con más detalle, seguido de un Manual de "
+"referencia detallado para la funcionalidad _morpho_, y una completa "
+"Descripción del lenguaje de secuencias de comandos."
+msgstr ""
+
+#: src/working_with_meshes.md:1
+msgid "Working with Meshes"
+msgstr ""
+
+#: src/working_with_meshes.md:3
+msgid ""
+"This chapter explains a number of ways the user can create and manipulate "
+"Mesh objects in _morpho_. The simplest way to create a mesh for a desired "
+"domain is to use the `meshgen` module, which provides a very high level and "
+"convenient interface. The `meshtools` module provides low level mesh "
+"creation operations and a number of useful routines to manipulate meshes. "
+"The `implicitmesh` module produces surfaces from implicit functions. "
+"Finally, you can use an external program to create a mesh that exports the "
+"data in vtk format using the `vtk` module."
+msgstr ""
+
+#: src/working_with_meshes.md:13
+msgid ""
+"Mesh creation follows two patterns. Some methods use a **constructor** "
+"pattern where you call a single function that creates the Mesh, e.g."
+msgstr ""
+
+#: src/working_with_meshes.md:20
+msgid ""
+"Other approaches follow a **builder** pattern, where you first create a "
+"special helper object,"
+msgstr ""
+
+#: src/working_with_meshes.md:27
+msgid ""
+"and manipulate it, e.g. by adding elements or setting options. The Mesh is "
+"then created by calling the build method:"
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:3
+msgid ""
+"The `meshgen` module conveniently produces high quality meshes for many "
+"kinds of domain. It follows the builder pattern with a MeshGen helper object "
+"that performs the construction. To use `meshgen`, the user must provide a "
+"scalar function that is positive everywhere that they want to be meshed."
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:9
+msgid ""
+"**Note** One example is referred to in the literature as a _signed distance "
+"function_, which is the Euclidean distance of a given point \\\\(x\\\\) to "
+"the boundary of a set \\\\(\\Omega\\\\) with the sign positive if \\\\(x\\"
+"\\) is in the interior of \\\\(\\Omega\\\\). MeshGen does not require signed "
+"distance functions, but accepts any continuous and reasonably smooth "
+"function."
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:11
+msgid ""
+"For example, the interior of the unit disk in two dimensions, is described "
+"by the function $$f(x,y)=1-(x^{2}+y^{2}).$$ To create the corresponding "
+"Mesh, we must first specify a suitable _morpho_ function that describes the "
+"domain. This function will be called repeatedly by MeshGen, which will pass "
+"it a position vector `x`. Hence, the \\\\((x,y)\\\\) components must be "
+"accessed from the argument `x` by indexing:"
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:25
+msgid "Now that the function is specified, we can create a MeshGen object:"
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:31
+msgid ""
+"The second parameter is a list of Ranges that provide overall bounds on the "
+"domain to be meshed. Here we will use \\\\(x,y\\in\\[\\-1,1\\]\\\\). By "
+"setting the stepsize, the user can provide MeshGen with an overall "
+"suggestion of the resolution."
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:36
+msgid "Finally, we create the Mesh by calling the build method:"
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:42
+msgid ""
+"The resulting Mesh is shown in Fig. [5.1](#fig:MeshGen-disk), left panel. A "
+"higher resolution Mesh can be generated by changing the Range objects passed "
+"to MeshGen:"
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:48
+msgid ""
+"This generates a much higher resolution Mesh, with approximately four times "
+"the number of vertices as shown in Fig. [5.1](#fig:MeshGen-disk), right "
+"panel."
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:61
+msgid ""
+"MeshGen can also mesh more complicated domains. To facilitate this, it "
+"provides a Domain class that accepts a scalar function in its constructor. "
+"For example, this code creates an ellipse as shown in Fig. [5.2](#fig:"
+"MeshGen-2), left panel:"
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:71
+msgid ""
+"The benefit of this is that Domain objects can be combined using set "
+"operation methods `union`, `intersection` and `difference`. To illustrate "
+"the possibilities with this, we use a special constructor to create three "
+"domains corresponding to disks,"
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:80
+msgid "then combine them,"
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:84
+msgid "and mesh the resulting domain,"
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:89
+msgid "with the result shown in Fig. [5.2](#fig:MeshGen-2), right panel."
+msgstr ""
+
+#: src/working_with_meshes/meshgen_module.md:101
+msgid ""
+"Three dimensional meshes are created very similarly. Here we create a "
+"spherical mesh, displayed in Fig. [5.3](#fig:MeshGen-3)"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:3
+msgid ""
+"Meshtools provides many useful functions for working with Meshes, including "
+"constructors to create certain kinds of Mesh and also classes for refining, "
+"coarsening and merging Meshes."
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:7
+msgid "LineMesh"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:9
+msgid ""
+"The `LineMesh` function is a convenient way to create a Mesh from a one-"
+"parameter parametric function. You must specify the function to use and a "
+"Range of points to generate. `LineMesh` then evaluates each point in the "
+"Range and joins them together with a line element."
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:14
+msgid ""
+"This is useful to generate meshes such as a simple straight line (Fig. [5.4]"
+"(#fig:LineMesh), left panel):"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:20
+msgid ""
+"You can also request the ends of the Mesh be joined together to form a loop "
+"by specifying `closed`. This code generates a circle (Fig. [5.4](#fig:"
+"LineMesh), center panel):"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:27
+msgid ""
+"You can increase the resolution of the circle by changing the stepsize in "
+"the Range, for example to ```2``*``Pi/20``` to double the number of points. "
+"Note the use of the exclusive Range operator here, `...`, rather than `..`to "
+"avoid duplicating the point at (1,0)."
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:32
+msgid ""
+"The output Mesh can be of any dimension, such as this helix in 3D (Fig. [5.4]"
+"(#fig:LineMesh), right panel). Notice that here we use a regular function "
+"rather than an anonymous function:"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:53
+msgid "AreaMesh"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:55
+msgid ""
+"`AreaMesh` is similar to `LineMesh` function creates a Mesh from a "
+"parametric function, which now takes two parameters. To create a square,"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:60
+msgid ""
+"where notice that a separate Range is required for \\\\(u\\\\) and \\\\(v\\"
+"\\). By default, the output of AreaMesh only contains grade 0 and grade 2 "
+"elements, i.e. vertices and facets, as is visible in Fig. [5.5](#fig:"
+"AreaMesh-1)(left). To add in grade 1 elements if required, call the "
+"`addgrade` method on the Mesh:"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:68
+msgid "This gives the result shown in Fig. \\[5.5\\](#fig:AreaMesh-1(right)."
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:82
+msgid ""
+"As with LineMesh, the Meshes can be closed in one or both directions, "
+"enabling the creation of a cylinder,"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:89
+msgid "and a torus,"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:97
+msgid ""
+"The results of these are displayed in Fig. [5.6](#fig:AreaMesh-2). Note that "
+"the meshes generated by more modules that incorporate some degree of quality "
+"control, e.g. `implicitmesh` or `meshgen`, are generally better and should "
+"be used in preference to those created by AreaMesh."
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:112
+msgid "PolyhedronMesh"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:127
+msgid ""
+"PolyhedronMesh helps to create Meshes corresponding to polyhedra. To make a "
+"cube, for example, we specify the eight vertices (see Fig. [5.7](#fig:"
+"PolyhedronMesh), left),"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:140
+msgid "and the six faces,"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:146
+msgid ""
+"Note that the vertex ids must be given _in order_ going around each face "
+"(see Fig. [5.7](#fig:PolyhedronMesh){reference-type=\"ref\" reference=\"fig:"
+"PolyhedronMesh\"}, center). Once the faces are specified, we can create the "
+"mesh,"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:154
+msgid ""
+"Note that PolyhedronMesh automatically creates additional vertices and "
+"generates triangles to complete the mesh (Fig. [5.7](#fig:PolyhedronMesh), "
+"right). We then added line elements (grade 1) as these are not automatically "
+"created by PolyhedronMesh."
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:159
+msgid "DelaunayMesh"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:171
+msgid ""
+"The DelaunayMesh constructor function performs a delaunay \"triangulation\" "
+"of a point set. For example, creating a random cloud of points (Fig. [5.8]"
+"(#fig:DelaunayMesh), left panel):"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:178
+msgid ""
+"we can then call DelaunayMesh to construct a tetrahedralization. "
+"DelaunayMesh only generates elements of the highest grade (in 2D, area "
+"elements, in 3D volume elements) so if edges are needed these can be added "
+"with `addgrade`."
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:186
+msgid ""
+"The resulting tetrahedralization is shown in Fig. [5.8](#fig:DelaunayMesh), "
+"right panel."
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:189
+msgid "ChangeMeshDimension"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:191
+msgid ""
+"Occasionally, one wishes to take a mesh embedded in one space, say two "
+"dimensions, and embed it in a space of different dimensionality. For "
+"example, you may wish to use a 2D mesh generated with MeshGen in 3D space. "
+"The function `ChangeMeshDimension` provides a convenient way to do this:"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:199
+msgid "where `dim` is the target dimension of the new mesh."
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:201
+msgid "MeshBuilder"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:203
+msgid ""
+"The MeshBuilder class facilitates manual construction of a Mesh object. It "
+"is primarily intended to be used by other mesh building algorithms, but is "
+"occasionally useful. To begin, create a MeshBuilder object:"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:209
+msgid ""
+"You can then add vertices and other elements one by one by calling "
+"appropriate methods. Let's build a tetrahedron by first adding the vertices:"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:218
+msgid ""
+"We then need to add edges connecting these vertices, and faces as well. We "
+"could do this one by one, giving a list of vertex ids for each element in "
+"turn,"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:222
+msgid ""
+"```\n"
+"mb.addedge([0,1])\n"
+"mb.addedge([0,2]) \n"
+"// ... etc. \n"
+"```"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:226
+msgid ""
+"but there's a smarter way for this case. Notice that the vertex ids "
+"corresponding to the edges of the tetrahedron correspond to the sets of size "
+"2 generated from the list ```[``0,1,2,3``]``` as can be seen by running this "
+"code:"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:234
+msgid "We can therefore generate the edges automatically,"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:239
+msgid "and the faces as well, which are the sets of size 3,"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:243
+msgid ""
+"We can finish by adding a single grade 3 element corresponding to the volume:"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:248
+msgid ""
+"Once all these have been added, call the `build` method to create a Mesh "
+"object:"
+msgstr ""
+
+#: src/working_with_meshes/meshtools_module.md:253
+msgid "and the resulting Mesh is shown in Fig. [5.9](#fig:MeshBuilder)."
+msgstr ""
+
+#: src/working_with_meshes/vtk_module.md:3
+msgid ""
+"The vtk module provides importing and exporting facilities for the popular "
+"VTK file format, which is used by many other programs such as `paraview`. "
+"Unlike morpho _.mesh_ files, VTK files can include both Mesh and Field data. "
+"To load a mesh from a VTK file, use a VTKImporter object:"
+msgstr ""
+
+#: src/working_with_meshes/vtk_module.md:9
+msgid ""
+"```\n"
+"import vtk \n"
+"var mv = VTKImporter(\"file.vtk\")\n"
+"var m = mv.mesh()\n"
+"```"
+msgstr ""
+
+#: src/working_with_meshes/vtk_module.md:13
+msgid ""
+"Fields can be loaded in a similar way. Each field in the VTK file has an "
+"identifier, which is passed to the `field` method as a string."
+msgstr ""
+
+#: src/working_with_meshes/vtk_module.md:16
+msgid ""
+"```\n"
+"var f = mv.field(\"F\")\n"
+"var g = mv.field(\"G\")\n"
+"```"
+msgstr ""
+
+#: src/working_with_meshes/vtk_module.md:19
+msgid "Exporting requires a VTKExporter class,"
+msgstr ""
+
+#: src/working_with_meshes/vtk_module.md:21
+msgid ""
+"```\n"
+"import meshtools \n"
+"import vtk \n"
+"var m1 = LineMesh(fn (t) [t,0,0], -1..1:2)\n"
+"var g1 = Field(m1, fn(x,y,z) Matrix([x,2*x,3*x]))\n"
+"\n"
+"var vtkE = VTKExporter(g1, fieldname=\"g\")\n"
+"vtkE.export(\"data.vtk\")\n"
+"```"
+msgstr ""
+
+#: src/working_with_meshes/merging_meshes.md:3
+msgid ""
+"A potential strategy to create meshes for complicated domains is to begin by "
+"creating several simpler meshes and then merging them together into one "
+"larger mesh. The MeshMerge class in the `meshtools` package allows us to do "
+"this. To use it, we create a MeshMerge object with a list of meshes we wish "
+"to merge"
+msgstr ""
+
+#: src/working_with_meshes/merging_meshes.md:11
+msgid ""
+"and then call the merge method to perform the merge and return the resulting "
+"Mesh:"
+msgstr ""
+
+#: src/working_with_meshes/merging_meshes.md:16
+msgid ""
+"As an example of this, we will build a mesh that might be an initial guess "
+"for a membrane held between two square fixed boundaries. We'll do this by "
+"creating one octant and then reflecting it along different axes. The basic "
+"unit is constructed with PolyhedronMesh, as shown in Fig. [5.11](#fig:"
+"MeshMerge):"
+msgstr ""
+
+#: src/working_with_meshes/merging_meshes.md:22
+msgid ""
+"```\n"
+"var a = 0.5 // Vertical separation\n"
+"var r = 0.5 // Size of hole\n"
+"var L = 1  // Size of box \n"
+"\n"
+"// One octant of the mesh \n"
+"var vertices = [ [r,0,a], [L,0,a], [L,r,a], [L,L,a],\n"
+"                 [r,L,a], [0,L,a], [0,r,a], [r,r,a],\n"
+"                 [r,0,0], [r,r,0], [0,r,0] ]\n"
+"var faces = [ [0,1,2,7], [2,3,4,7], [7,4,5,6], [0,8,9,7], [6,7,9,10] ]\n"
+"\n"
+"var m1 = PolyhedronMesh(vertices, faces)\n"
+"m1.addgrade(1)\n"
+"```"
+msgstr ""
+
+#: src/working_with_meshes/merging_meshes.md:35
+msgid ""
+"We now need to create code that reflects a Mesh about one or more axes. "
+"There's more than one way this could be done, but we will here create a "
+"MeshReflector class that follows the builder pattern:"
+msgstr ""
+
+#: src/working_with_meshes/merging_meshes.md:39
+msgid ""
+"```\n"
+"class MeshReflector {\n"
+"  init(mesh) {\n"
+"    self.mesh = mesh\n"
+"    self.dim = mesh.vertexmatrix().dimensions()[0] // Get Mesh dimension\n"
+"  }\n"
+"\n"
+"  // Construct a matrix that reflects about one or more axes    \n"
+"  _reflectionmatrix(axis) { \n"
+"    var rmat = Matrix(self.dim,self.dim)\n"
+"    for (i in 0...self.dim) rmat[i,i]=1\n"
+"    if (isint(axis)) rmat[axis,axis]*=-1\n"
+"    else if (isobject(axis)) for (i in axis) rmat[i,i]*=-1\n"
+"    return rmat\n"
+"  }\n"
+"\n"
+"  reflect(axis) { // Reflect the mesh about the given axis or axes\n"
+"    var rmat = self._reflectionmatrix(axis)\n"
+"    // Clone and transform the mesh\n"
+"    var m = self.mesh.clone()\n"
+"    for (vid in 0...m.count()) {\n"
+"      m.setvertexposition(vid, rmat * m.vertexposition(vid))\n"
+"    }\n"
+"    return m\n"
+"  }\n"
+"} \n"
+"```"
+msgstr ""
+
+#: src/working_with_meshes/merging_meshes.md:65
+msgid ""
+"Having defined this class, we create a MeshReflector and use it to build "
+"seven reflected copies:"
+msgstr ""
+
+#: src/working_with_meshes/merging_meshes.md:68
+msgid ""
+"```\n"
+"var mr = MeshReflector(m1)\n"
+"\n"
+"// Merge reflected meshed together\n"
+"var merge = MeshMerge([ m1,\n"
+"                        mr.reflect(0),\n"
+"                        mr.reflect(1),\n"
+"                        mr.reflect(2),\n"
+"                        mr.reflect([0,1]),\n"
+"                        mr.reflect([1,2]),\n"
+"                        mr.reflect([2,0]),\n"
+"                        mr.reflect([0,1,2])\n"
+"                      ])\n"
+"var m = merge.merge()\n"
+"```"
+msgstr ""
+
+#: src/working_with_meshes/merging_meshes.md:82
+msgid ""
+"The resulting mesh is shown in Fig. [5.11](#fig:MeshMerge), right panel. "
+"Note that MeshMerge automatically removes duplicate elements as the merge is "
+"performed, so that"
+msgstr ""
+
+#: src/working_with_meshes/merging_meshes.md:89
+msgid "reports that there were 35 line elements in the original mesh, while"
+msgstr ""
+
+#: src/working_with_meshes/merging_meshes.md:93
+msgid ""
+"yields \\\\(256=8\\times(35-6/2)\\\\) line elements, because there are 6 "
+"shared edges for each copy."
+msgstr ""
+
+#: src/working_with_meshes/slicing_meshes.md:3
+msgid ""
+"The `meshslice` module is designed to help visualize a \"slice\" through the "
+"mesh and associated Fields, which is often useful when working with three or "
+"higher dimensional meshes. To illustrate its use, we'll reuse the spherical "
+"mesh created with MeshGen in the [Meshgen Section](meshgen_module.md) above "
+"(see Fig. [5.3](meshgen_module.md#fig:MeshGen-3)). Ensure that the mesh has "
+"grade 2 elements present with `addgrade` if necessary. We'll also create a "
+"simple scalar field:"
+msgstr ""
+
+#: src/working_with_meshes/slicing_meshes.md:13
+msgid ""
+"To take a slice, first create a MeshSlicer object with the mesh we want to "
+"slice:"
+msgstr ""
+
+#: src/working_with_meshes/slicing_meshes.md:18
+msgid ""
+"Then call the `slice` method, which requires us to specify a slicing plane. "
+"Planes are defined by a point \\\\((x,y,z)\\\\) and a normal vector \\"
+"\\((n\\_{x},n\\_{y},n\\_{z})\\\\), which are passed as arguments:"
+msgstr ""
+
+#: src/working_with_meshes/slicing_meshes.md:22
+msgid ""
+"```\n"
+"var slc=ms.slice([0,0,0],[0,0,1]) // position, normal\n"
+"```"
+msgstr ""
+
+#: src/working_with_meshes/slicing_meshes.md:24
+msgid ""
+"After taking a slice, we can then slice any number of Field objects as well:"
+msgstr ""
+
+#: src/working_with_meshes/slicing_meshes.md:29
+msgid ""
+"A single MeshSlicer can take any number of slices from the same Mesh; "
+"`slicefield` always uses the most recent slice taken. Results from the "
+"example are shown in Fig. [5.12](#fig:MeshSlicer). As can be seen, the "
+"results of slicing a Mesh typically produce meshes that are quire irregular, "
+"with narrow triangles and unequally sized elements. Hence, these meshes are "
+"intended mostly for visualization purposes rather than use in calculations."
+msgstr ""
+
+#: src/visualization.md:3
+msgid ""
+"This chapter describes ways to use _morpho_ to visualize output. Easy to use "
+"functions to visualize geometric objects are found in the `plot` module, "
+"while you can draw arbitrary objects using the `graphics` module. "
+"Publication quality output can be generated conveniently using the `povray` "
+"module."
+msgstr ""
+
+#: src/visualization/plot_module.md:21
+msgid ""
+"The `plot` module offers a convenient way to visualize Meshes, Fields and "
+"Selections. To illustrate its use, we'll create a simple Mesh,"
+msgstr ""
+
+#: src/visualization/plot_module.md:28
+msgid "and an associated scalar Field,"
+msgstr ""
+
+#: src/visualization/plot_module.md:32
+msgid "Meshes"
+msgstr ""
+
+#: src/visualization/plot_module.md:34
+msgid "To visualize the Mesh, use the `plotmesh` function"
+msgstr ""
+
+#: src/visualization/plot_module.md:38
+msgid ""
+"which outputs a Graphics object, which we'll describe more fully in the "
+"[Graphics Section](graphics_module.md) below. By default, `plotmesh` shows "
+"only the highest grade element presenthere grade 2 or facetsas shown in Fig. "
+"[6.1](#fig:PlotMesh)A. To show other grades, use the `grade` option:"
+msgstr ""
+
+#: src/visualization/plot_module.md:46
+msgid "which shows points and edges as shown in Fig. [6.1](#fig:PlotMesh)B."
+msgstr ""
+
+#: src/visualization/plot_module.md:49
+msgid ""
+"You can control the color of the Mesh with the `color` option as shown in "
+"Fig. [6.1](#fig:PlotMesh)C:"
+msgstr ""
+
+#: src/visualization/plot_module.md:54
+msgid ""
+"To display particular selected elements of a mesh, you can use the optional "
+"`selection` argument and supply a Selection object."
+msgstr ""
+
+#: src/visualization/plot_module.md:61
+msgid "Mesh labels"
+msgstr ""
+
+#: src/visualization/plot_module.md:77
+msgid ""
+"It's sometimes helpful to be able to identify the id of a particular element "
+"in a Mesh, especially for debugging purposes. The `plotmeshlabels` function "
+"is designed to facilitate this as shown in Fig. [6.2](#fig:PlotMeshLabels). "
+"You can select which grade to draw ids for and specify their color, size and "
+"draw direction. It's also possible to give an offset, which can be a list, "
+"matrix or even a function, that adjusts the placement of the labels relative "
+"to the center of the element. Here we offset them a little above and to the "
+"right:"
+msgstr ""
+
+#: src/visualization/plot_module.md:88
+msgid ""
+"The `plotmeshlabels` function only draws labels, not the mesh itself, so we "
+"typically combine it with `plotmesh` and display both:"
+msgstr ""
+
+#: src/visualization/plot_module.md:94
+msgid "To show the grade 1 element ids, for example, we might use:"
+msgstr ""
+
+#: src/visualization/plot_module.md:114
+msgid ""
+"When setting up a problem in _morpho_, it's very common to use Selection "
+"objects to apply Functionals to limited parts of a Mesh. It's essential to "
+"check that the Selections are correct, and `plotselection` provides an easy "
+"way to do this. To illustrate this, let's select the lower right hand "
+"elements in the Mesh,"
+msgstr ""
+
+#: src/visualization/plot_module.md:123
+msgid ""
+"and visualize the Selection as shown in Fig. [6.3](#fig:PlotSelection)A:"
+msgstr ""
+
+#: src/visualization/plot_module.md:128
+msgid "Similarly, we can select the boundary,"
+msgstr ""
+
+#: src/visualization/plot_module.md:132
+msgid ""
+"and visualize the selection as shown in Fig. [6.3](#fig:PlotSelection)B:"
+msgstr ""
+
+#: src/visualization/plot_module.md:139
+msgid ""
+"Another important use of the `plot` module is to visualize scalar Field "
+"objects. To illustrate this, we'll create an AreaMesh that has more points,"
+msgstr ""
+
+#: src/visualization/plot_module.md:145
+msgid "and a corresponding Field object:"
+msgstr ""
+
+#: src/visualization/plot_module.md:149
+msgid ""
+"It's actually the third lowest energy eigenmode of a square drum, or "
+"equivalently the \\\\((1,1)\\\\) state of a 2D infinite square well in "
+"quantum mechanics."
+msgstr ""
+
+#: src/visualization/plot_module.md:151
+msgid ""
+"By default, `plotfield` draws points at which the Field is defined, and "
+"colors them by the value as in Fig. [6.4](#fig:PlotField)A:"
+msgstr ""
+
+#: src/visualization/plot_module.md:157
+msgid ""
+"Alternatively, `plotfield` can draw higher order elements and interpolate "
+"the coloring if you select the style option appropriately as shown in Fig. "
+"[6.4](#fig:PlotField)B:"
+msgstr ""
+
+#: src/visualization/plot_module.md:161
+msgid ""
+"```\n"
+"var g = plotfield(f, style=\"interpolate\")\n"
+"```"
+msgstr ""
+
+#: src/visualization/plot_module.md:163
+msgid ""
+"To aid interpretation of these plots, it's common to display a ScaleBar "
+"object alongside the plot. These have quite a few options, including the "
+"position and size, as well as the number of ticks and text layout."
+msgstr ""
+
+#: src/visualization/plot_module.md:169
+msgid ""
+"The scalebar is the then supplied as an optional argument to `plotfield`. "
+"Here, we also use a different colormap object:"
+msgstr ""
+
+#: src/visualization/plot_module.md:172
+msgid ""
+"```\n"
+"var g = plotfield(f, style=\"interpolate\", scalebar=sb, "
+"colormap=PlasmaMap())\n"
+"```"
+msgstr ""
+
+#: src/visualization/plot_module.md:174
+msgid ""
+"The `color` module supplies a number of colormaps that you can try: "
+"ViridisMap is used by default, but PlasmaMap, MagmaMap and InfernoMap are "
+"also recommended and have been specially formulated to be accessible to "
+"users with limited color perception."
+msgstr ""
+
+#: src/visualization/plot_module.md:179
+msgid ""
+"The _morpho_ versions are adapted from _Simon Garnier, Noam Ross, Robert "
+"Rudis, Antônio P. Camargo, Marco Sciaini, and Cédric Scherer (2021). "
+"viridis(Lite) - Colorblind-Friendly Color Maps for R. viridis package "
+"version 0.6.2._"
+msgstr ""
+
+#: src/visualization/plot_module.md:181
+msgid "GrayMap and HueMap are also available."
+msgstr ""
+
+#: src/visualization/graphics_module.md:3
+msgid ""
+"Support for low level graphics is provided by the `graphics` module, which "
+"you can use this to create custom visualizations and generate other kinds of "
+"graphical output. These can be easily combined with output from the `plot` "
+"module, which utilizes `graphics` internally."
+msgstr ""
+
+#: src/visualization/graphics_module.md:8
+msgid ""
+"We begin by creating a Graphics object, which represents a _scene_ or a "
+"collection of things to be displayed."
+msgstr ""
+
+#: src/visualization/graphics_module.md:13
+msgid ""
+"Once the Graphics object is created, we can add _display elements_, objects "
+"specifying what is to be drawn, to the scene in turn."
+msgstr ""
+
+#: src/visualization/graphics_module.md:16
+msgid "Sometimes referred to as graphics 'primitives'."
+msgstr ""
+
+#: src/visualization/graphics_module.md:18
+msgid "The graphics module supports the following kinds of element:"
+msgstr ""
+
+#: src/visualization/graphics_module.md:20
+msgid ""
+"**Cylinder** specified by two points at each end of the cylinder on its "
+"axis. You can also specify the aspect ratio, i.e. the ratio of the radius of "
+"the cylinder to its length, and the number of points to draw."
+msgstr ""
+
+#: src/visualization/graphics_module.md:27
+msgid "**Arrow** specified in the same way as a Cylinder, e.g."
+msgstr ""
+
+#: src/visualization/graphics_module.md:31
+msgid "**Sphere** specified by the center and the radius, e.g."
+msgstr ""
+
+#: src/visualization/graphics_module.md:35
+msgid ""
+"**Text** specified by the text to display and the location to display at. "
+"Many options can be provided, including the drawing direction and the "
+"vertical direction, the size in points (1 graphics unit=72 points), and the "
+"Font."
+msgstr ""
+
+#: src/visualization/graphics_module.md:40
+msgid ""
+"```\n"
+"Text(\"Hello World!\", [-0.75,0,0], size=24, color=Black)\n"
+"```"
+msgstr ""
+
+#: src/visualization/graphics_module.md:42
+msgid ""
+"**Tube** specified by a sequence of points and a radius. You can also "
+"specify if the tube is closed or not."
+msgstr ""
+
+#: src/visualization/graphics_module.md:51
+msgid ""
+"**TriangleComplex** describes a collection of triangles, which can be used "
+"to display polyhedra and other complex objects. These elements are low-"
+"level, and further information is available in the reference section."
+msgstr ""
+
+#: src/visualization/graphics_module.md:56
+msgid "Most of these elements accept certain optional arguments:"
+msgstr ""
+
+#: src/visualization/graphics_module.md:58
+msgid "**color** to specify the color."
+msgstr ""
+
+#: src/visualization/graphics_module.md:60
+msgid ""
+"**transmit** specifies the transparency of the element, which by default is "
+"0."
+msgstr ""
+
+#: src/visualization/graphics_module.md:63
+msgid ""
+"**filter** alternative way of specifying transparency for use with the "
+"povray module."
+msgstr ""
+
+#: src/visualization/graphics_module.md:66
+msgid ""
+"Once appropriate elements have been created, we can display the Graphics "
+"object with `morphoview` using Show."
+msgstr ""
+
+#: src/visualization/graphics_module.md:97
+msgid "Example: Visualizing an electric field"
+msgstr ""
+
+#: src/visualization/graphics_module.md:110
+msgid ""
+"As an illustration of what's possible using the `graphics` module directly, "
+"we'll create a visualization of the electric field due to two point charges "
+"(Fig. [6.6](#fig:ElectricField){reference-type=\"ref\" reference=\"fig:"
+"ElectricField\"}). Begin by setting some constants and creating the Graphics "
+"object:"
+msgstr ""
+
+#: src/visualization/graphics_module.md:116
+msgid ""
+"```\n"
+"var L = 2 // Size of domain to draw\n"
+"var R = 1 // Separation of the charges\n"
+"var dx = 0.125 // Spacing of points to draw\n"
+"var eps = 1e-10 // Check for zero separation\n"
+"\n"
+"var g = Graphics()\n"
+"```"
+msgstr ""
+
+#: src/visualization/graphics_module.md:123
+msgid ""
+"We'll now define the charges by creating two List objects: one contains the "
+"strength of each charge and the second stores their positions:"
+msgstr ""
+
+#: src/visualization/graphics_module.md:126
+msgid ""
+"```\n"
+"// Electric field due to a system of point charges\n"
+"var qq = [1,-1]\n"
+"var xq = [ Matrix([-R/2, 0, 0]), Matrix([R/2, 0, 0])]\n"
+"```"
+msgstr ""
+
+#: src/visualization/graphics_module.md:130
+msgid ""
+"We'll also define a cutoff distance around each charge below which we won't "
+"draw the electric field (remember it grows \\\\(\\to\\infty\\\\) as we get "
+"closer!):"
+msgstr ""
+
+#: src/visualization/graphics_module.md:136
+msgid ""
+"Next, we need a function that calculates the electric field at an arbitary "
+"point. We do this by summing up the electric fields due to each charge using "
+"Coulomb's law:"
+msgstr ""
+
+#: src/visualization/graphics_module.md:140
+msgid ""
+"```\n"
+"fn efield(x) {\n"
+"   var e = 0\n"
+"   for (q, k in qq) {\n"
+"    var r=x-xq[k]\n"
+"    if (r.norm()<cutoff) return nil\n"
+"    e+=q*r/(r.norm()^3) // = 1/r^2 * \\hat{r}\n"
+"  }\n"
+"  return e\n"
+" }\n"
+"```"
+msgstr ""
+
+#: src/visualization/graphics_module.md:150
+msgid ""
+"To draw the electric field, we create a rectangular grid of points, "
+"calculate the electric field at each point and draw an Arrow along the "
+"orientation."
+msgstr ""
+
+#: src/visualization/graphics_module.md:162
+msgid "We now draw the charges, coloring them by their sign:"
+msgstr ""
+
+#: src/visualization/graphics_module.md:170
+msgid "Finally, we display the scene:"
+msgstr ""
+
+#: src/visualization/povray_module.md:3
+msgid ""
+"All figures in this manual have been exported directly from the _morpho_ "
+"programs that created them using the persistence of vision raytracer or "
+"`povray`. A raytracer is a program that takes a scene description and "
+"renders graphical output by tracing the path of individual rays of light. "
+"Because the model of light propagation and image formation is physically "
+"motivated, the output is of very high quality. By contrast, `morphoview` and "
+"most graphics programs use simplified approximate rendering techniques that "
+"enable real time interactive output. At the time of writing, raytracing is "
+"gaining popularity as a technique, and some high performance graphics cards "
+"now have real time raytracing capability. `povray` is a very well "
+"established program that is widely available and cross platform."
+msgstr ""
+
+#: src/visualization/povray_module.md:16
+msgid ""
+"To use the `povray` module, you need to create a POVRaytracer object and "
+"initialize it with the graphics object"
+msgstr ""
+
+#: src/visualization/povray_module.md:23
+msgid ""
+"You can choose features of the graphics out by setting properties of this "
+"object, for example:"
+msgstr ""
+
+#: src/visualization/povray_module.md:26
+msgid ""
+"```\n"
+"pov.viewpoint = Matrix([5,5,6]) // Sets where the camera is located\n"
+"pov.viewangle = 18 // Controls the angular size of the view\n"
+"pov.background = White // Sets the background for rendering\n"
+"pov.light=[Matrix([10,10,10]), Matrix([0,0,10]), Matrix([-10,-10,10])] // "
+"Places light point sources at several positions\n"
+"```"
+msgstr ""
+
+#: src/visualization/povray_module.md:31
+msgid ""
+"Because the list of properties can get quite cumbersome, it's possible to "
+"specify them through a separate Camera object and initialize the raytracer "
+"to use the Camera:"
+msgstr ""
+
+#: src/visualization/povray_module.md:37
+msgid "See the Reference section for further details."
+msgstr ""
+
+#: src/visualization/povray_module.md:39
+msgid ""
+"To produce output, call the render method to create a .pov file and run "
+"povray:"
+msgstr ""
+
+#: src/visualization/povray_module.md:42
+msgid ""
+"```\n"
+"pov.render(\"graphic.pov\")\n"
+"```"
+msgstr ""
+
+#: src/visualization/povray_module.md:44
+msgid ""
+"By default, the resulting .png file is opened. You can stop this by calling "
+"render with `display` set to `false`:"
+msgstr ""
+
+#: src/visualization/povray_module.md:47
+msgid ""
+"```\n"
+"pov.render(\"graphic.pov\", display=false)\n"
+"```"
+msgstr ""
+
+#: src/visualization/povray_module.md:49
+msgid ""
+"If you wish to simply create .pov file without running povray, use the write "
+"method:"
+msgstr ""
+
+#: src/visualization/povray_module.md:52
+msgid ""
+"```\n"
+"pov.write(\"graphic.pov\")\n"
+"```"
+msgstr ""
+
+#: src/visualization/povray_module.md:64
+msgid ""
+"A major advantage of raytracing is natural support for transparency effects. "
+"Here we generate 50 spheres of random placement, size and transparency by "
+"setting the `transmit` option. The rendered output is shown in Fig. [6.7]"
+"(#fig:Transparency)."
+msgstr ""
+
+#: src/examples.md:3
+msgid ""
+"This chapter discusses the example programs provided to illustrate various "
+"_morpho_ features. These can be found in the `examples` folder of the morpho "
+"git repository and are listed here in alphabetical order. Some closely "
+"relate to material presented in other chapters for which cross-references "
+"are provided."
+msgstr ""
+
+#: src/examples/catenoid.md:16
+msgid ""
+"A soap film held between two parallel concentric circular rings adopts the "
+"shape of a minimal surface called a _catenoid._ This is a relatively simple "
+"optimization problem, and hence is a good example for beginners to _morpho_."
+msgstr ""
+
+#: src/examples/catenoid.md:21
+msgid "The initial mesh is created using AreaMesh in the `meshtools` module:"
+msgstr ""
+
+#: src/examples/catenoid.md:23
+msgid ""
+"```\n"
+"var r = 1.0 // radius\n"
+"var ratio = 0.4 // Separation to diameter ratio\n"
+"var L = 2*r*ratio // Separation\n"
+"\n"
+"// Generate a tube / cylindrical mesh\n"
+"var mesh = AreaMesh(fn (u, v) [r*cos(u), v, r*sin(u)],\n"
+"                    -Pi...Pi:Pi/10,\n"
+"                    -L/2..L/2:L/5,\n"
+"                    closed=[true,false] )\n"
+"mesh.addgrade(1)\n"
+"```"
+msgstr ""
+
+#: src/examples/catenoid.md:34
+msgid ""
+"The boundary of the mesh must be fixed in place. We can do this by creating "
+"a Selection, and visualizing it as shown in Fig. [7.1](#fig:Catenoid), left "
+"panel:"
+msgstr ""
+
+#: src/examples/catenoid.md:39
+msgid ""
+"```\n"
+"// Select the boundary\n"
+"var bnd = Selection(mesh, boundary=true)\n"
+"var g = plotselection(mesh, bnd, grade=1) \n"
+"```"
+msgstr ""
+
+#: src/examples/catenoid.md:43
+msgid ""
+"The optimization problem simply requires us to specify the area as the "
+"quantity to minimize:"
+msgstr ""
+
+#: src/examples/catenoid.md:46
+msgid ""
+"```\n"
+" // Define the optimizataion problem\n"
+"var problem = OptimizationProblem(mesh) \n"
+"// Add the area energy using the built-in Area functional\n"
+"var area = Area()\n"
+"problem.addenergy(area) \n"
+"```"
+msgstr ""
+
+#: src/examples/catenoid.md:52
+msgid "We then create a ShapeOptimizer to perform the optimization,"
+msgstr ""
+
+#: src/examples/catenoid.md:56
+msgid "fix the boundary elements using the selection object we created,"
+msgstr ""
+
+#: src/examples/catenoid.md:60
+msgid ""
+"and perform the optimization. Conjugate gradient works well for this problem "
+"and converges in a few iterations. The final optimized shape is shown in "
+"Fig. [7.1](#fig:Catenoid), right panel."
+msgstr ""
+
+#: src/examples/cholesteric.md:3
+msgid ""
+"A cholesteric liquid crystal, in contrast to a nematic liquid crystal as was "
+"considered in the tutorial in Chapter X, favors a twisted state. The liquid "
+"crystal elastic energy is modified to include a preferred chiral wavevector "
+"\\\\(q\\_{0}\\\\), $$ \\\\begin{equation} F=\\frac{1}{2}\\int\\_{C}"
+"K\\_{11}\\left(\\nabla\\cdot\\mathbf{n}\\right)^{2}+K\\_{22}"
+"(\\mathbf{n}\\cdot\\nabla\\times\\mathbf{n}-q\\_{0})^{2}+K\\_{33}\\left|"
+"\\mathbf{n}\\times\\nabla\\times\\mathbf{n}\\right|^{2}dA.\\label{eq:"
+"CholestericFreeEnergy} \\\\end{equation} $$ The cholesteric example "
+"minimizes the above equation in a square domain \\\\((x,y)\\in\\[\\-L,L\\]\\"
+"\\), with \\\\(L=1/2\\\\), together with an anchoring energy, $"
+"$W\\int(\\mathbf{n}\\cdot\\mathbf{\\hat{y}})^{2}dl,$$ imposed on the top and "
+"bottom boundaries to promote _planar degenerate_ alignment, i.e. \\"
+"\\(\\mathbf{n}\\\\) prefers to lie any direction in the \\\\(x-z\\\\) plane. "
+"The optimized structure with \\\\(q\\_{0}=\\pi/2\\\\) is displayed in Fig. "
+"([7.2](#fig:Cholesteric))."
+msgstr ""
+
+#: src/examples/cube.md:16
+msgid ""
+"This example finds a minimal surface with fixed enclosed volume, i.e. a "
+"sphere. It closely parallels a similar example from _Surface Evolver_, and "
+"hence may aid those familiar with that program in learning to use _morpho_. "
+"Starting from an initial cube, shown in Fig. ([7.3](#fig:Cube)), and created "
+"as follows:"
+msgstr ""
+
+#: src/examples/cube.md:23
+msgid ""
+"```\n"
+" // Create an initial cube\n"
+"var m = PolyhedronMesh([ [-0.5, -0.5, -0.5],\n"
+"                         [ 0.5, -0.5, -0.5],\n"
+"                         [-0.5,  0.5, -0.5],\n"
+"                         [ 0.5,  0.5, -0.5],\n"
+"                         [-0.5, -0.5,  0.5],\n"
+"                         [ 0.5, -0.5,  0.5],\n"
+"                         [-0.5,  0.5,  0.5],\n"
+"                         [ 0.5,  0.5,  0.5]],\n"
+"                       [ [0,1,3,2], [4,5,7,6],\n"
+"                         [0,1,5,4], [3,2,6,7],\n"
+"                         [0,2,6,4], [1,3,7,5] ])\n"
+"```"
+msgstr ""
+
+#: src/examples/cube.md:36
+msgid "The problem and optimizer are set up:"
+msgstr ""
+
+#: src/examples/cube.md:47
+msgid "The mesh is optimized, then refined, then reoptimized:"
+msgstr ""
+
+#: src/examples/cube.md:49
+msgid ""
+"```\n"
+"var Nlevels = 4 // Levels of refinement\n"
+"var Nsteps = 1000 // Maximum number of steps per refinement level\n"
+"\n"
+"for (i in 1..Nlevels) {\n"
+"  opt.conjugategradient(Nsteps)\n"
+"  if (i==Nlevels) break\n"
+"  // Refine\n"
+"  var mr=MeshRefiner([m])\n"
+"  var refmap = mr.refine()\n"
+"  for (el in [problem, opt]) el.update(refmap)\n"
+"  m = refmap[m]\n"
+"}\n"
+"```"
+msgstr ""
+
+#: src/examples/cube.md:62
+msgid ""
+"And finally the resulting area is compared with the true area of a sphere at "
+"the same volume:"
+msgstr ""
+
+#: src/examples/cube.md:65
+msgid ""
+"```\n"
+"var V0=lv.total(m)\n"
+"var Af=la.total(m)\n"
+"var R=(V0/(4/3*Pi))^(1/3)\n"
+"var area = 4*Pi*R^2\n"
+"print \"Final area: ${Af} True area: ${area} diff: ${abs(Af-area)}\"\n"
+"```"
+msgstr ""
+
+#: src/examples/delaunay.md:16
+msgid ""
+"This example demonstrates use of the `delaunay` module to create a Delaunay "
+"triangulation from a point cloud. The triangulation generated is explicitly "
+"checked for the property that no point other than the vertices lies within "
+"the circumsphere of each triangle."
+msgstr ""
+
+#: src/examples/dla.md:11
+msgid ""
+"Diffusion Limited Aggregation is a process describing the formation of "
+"aggregates of sticky particles. An initial seed particle of radius \\\\(r\\"
+"\\) is placed at \\\\( x_0=(0,0,0) \\\\). Subsequent particles are added one "
+"by one from initial random points \\\\(\\mathbf{x}\\_{i}^{0}"
+"=R\\mathbf{\\xi}/|\\mathbf{\\xi}|\\\\) where \\\\(\\xi\\\\) is a random "
+"point normally distributed in each axis; the construction \\"
+"\\(\\mathbf{\\xi}/|\\mathbf{\\xi}|\\\\) generates a random point on the unit "
+"sphere. In _morpho_, this looks like"
+msgstr ""
+
+#: src/examples/dla.md:25
+msgid "The mobile particle moves diffusively, according to"
+msgstr ""
+
+#: src/examples/dla.md:27
+msgid "$$ x_i^{n+1}=x_i^{n}+\\delta\\xi$$ "
+msgstr ""
+
+#: src/examples/dla.md:29
+msgid ""
+"where \\\\(\\delta\\\\) is a small number. As the particle moves, we check "
+"to see if it has collided with any other particles, $$\\left|x\\_{i}-"
+"x\\_{j}\\right|\\<2r,\\forall i\\neq j,\\label{eq:collisioncheck}$$ or if it "
+"has wandered out of bounds, $$\\left|x\\_{i}\\right|>2R.$$ If a particle has "
+"collided with another particle, it becomes fixed in place and joins the "
+"aggregate. As particles are added, the aggregate develops a characteristic "
+"fractalline morphology as shown in Fig. [7.5](#fig:DLA){reference-"
+"type=\"ref\" reference=\"fig:DLA\"}. The body of the program is a double "
+"loop:"
+msgstr ""
+
+#: src/examples/dla.md:40
+msgid ""
+"```\n"
+"for (n in 1..Np) { // Add particles one-by-one  \n"
+"  var x = randompt()\n"
+"  while (true) {\n"
+"    // Move current particle\n"
+"    x+=Matrix([delta*randomnormal(), delta*randomnormal(), "
+"delta*randomnormal()])\n"
+"\n"
+"    // Check for collisions\n"
+"    /* ... */\n"
+"\n"
+"    // Catch if it wandered out of the boundary\n"
+"    if (x.norm()>2*R) x = randompt() \n"
+"  }\n"
+"}\n"
+"```"
+msgstr ""
+
+#: src/examples/dla.md:54
+msgid ""
+"To perform the collision check, the example uses a data structure called a \\"
+"\\(k\\\\)-dimensional tree, provided in the `kdtree` module. A \\\\(k\\\\)-"
+"dimensional tree provides a nearest neighbor search with \\\\(O(\\log N)\\"
+"\\) complexity rather than \\\\(O(N)\\\\) complexity as would be required by "
+"searching all the points directly. The collision check code looks like this:"
+msgstr ""
+
+#: src/examples/dla.md:61
+msgid ""
+"```\n"
+"if ((tree.nearest(x).location-x).norm()<2*r) {\n"
+"  tree.insert(x)\n"
+"  pts.append(x)\n"
+"  if (x.norm()>R/2) R = 2*x.norm()\n"
+"  break // Move to next particle\n"
+"}\n"
+"```"
+msgstr ""
+
+#: src/examples/dla.md:68
+msgid ""
+"Notice that we gradually expand \\\\(R\\\\) as the aggregate grows. Ideally, "
+"each point should start very far away, really at infinity, but this would be "
+"very expensive in terms of the number of diffusion steps. A value of \\\\(R\\"
+"\\) double the greatest extent of the aggregate is a good compromise between "
+"speed and a reasonable approximation of diffusion limited aggregation."
+msgstr ""
+
+#: src/examples/dla.md:75
+msgid ""
+"This example also demonstrates how to create a simple custom visualization "
+"directly using the `graphics `module. The particles are drawn as spheres and "
+"displayed with the following code. An example run is displayed in Fig. [7.5]"
+"(#fig:DLA)."
+msgstr ""
+
+#: src/examples/electrostatics.md:3
+msgid ""
+"This example shows how to solve a simple electrostatics problem with "
+"adaptive refinement, and provides a useful example of how to cast a problem "
+"that is normally thought of as solving a PDE as an optimization problem."
+msgstr ""
+
+#: src/examples/electrostatics.md:8
+msgid "Suppose we want to solve Laplace's equation,"
+msgstr ""
+
+#: src/examples/electrostatics.md:10
+msgid "$$\\nabla^{2}\\phi=0$$"
+msgstr ""
+
+#: src/examples/electrostatics.md:12
+msgid ""
+"on a square domain \\\\(C\\\\) defined by \\\\(-L/2\\leq x\\leq L/2\\\\) and "
+"\\\\(-L/2\\leq y\\leq L/2\\\\). An equivalent formulation suitable for "
+"_morpho_ is to minimize,"
+msgstr ""
+
+#: src/examples/electrostatics.md:16
+msgid ""
+"$$ \\\\begin{equation} \\\\int\\_{C}\\left|\\nabla\\phi\\right|^{2}dA \\"
+"\\label{eq:el1} \\\\end{equation} $$"
+msgstr ""
+
+#: src/examples/electrostatics.md:23
+msgid "with respect to \\\\(\\phi\\\\)."
+msgstr ""
+
+#: src/examples/electrostatics.md:25
+msgid ""
+"We can show the two are equivalent by applying calculus of variations to the "
+"\\eqref{eq:el1},"
+msgstr ""
+
+#: src/examples/electrostatics.md:28
+msgid ""
+"$$ \\delta\\int\\*{C}\\left|\\nabla\\phi\\right|^{2}dA "
+"=\\int\\*{C}\\delta\\left|\\nabla\\phi\\right|^{2}dA $$ $$ "
+"=\\int\\_{C}\\frac{\\partial}{\\partial\\nabla\\phi}\\left|"
+"\\nabla\\phi\\right|^{2}\\cdot\\delta\\nabla\\phi dA,$$"
+msgstr ""
+
+#: src/examples/electrostatics.md:31
+msgid "and integrating by parts,"
+msgstr ""
+
+#: src/examples/electrostatics.md:33
+msgid ""
+"$$ \\\\begin{align} \\\\int\\_{C}\\frac{\\partial}"
+"{\\partial\\nabla\\phi}\\left|\\nabla\\phi\\right|"
+"^{2}\\cdot\\delta\\nabla\\phi dA & =\\int\\_{\\partial "
+"C}\\nabla\\phi\\cdot\\hat{\\mathbf{s}}\\delta\\phi dl-"
+"\\int\\_{C}\\nabla\\cdot\\frac{\\partial}{\\partial\\nabla\\phi}\\left|"
+"\\nabla\\phi\\right|^{2}\\delta\\phi dA\\nonumber \\\\\\\\ & "
+"=\\int\\_{\\partial C}\\nabla\\phi\\cdot\\hat{\\mathbf{s}}\\delta\\phi dl-"
+"\\int\\_{C}\\nabla^{2}\\phi\\delta\\phi dA,\\label{eq:bulkvariations} \\"
+"\\end{align} $$"
+msgstr ""
+
+#: src/examples/electrostatics.md:40
+msgid ""
+"**Note** If you're not familiar with calculus of variations, feel free to "
+"skip paragraphs that refer to \"variations\". The calculus of variations "
+"generalizes calculus from differentiating with respect to variables to "
+"differentiating with respect to functions."
+msgstr ""
+
+#: src/examples/electrostatics.md:42
+msgid ""
+"where \\\\(\\hat{\\mathbf{s}}\\\\) is the outward normal. Hence, allowing "
+"for arbitrary variations \\\\(\\delta\\phi\\\\), in order for the bulk "
+"integrand to vanish Laplace's equation \\\\(\\nabla^{2}\\phi=0\\\\) must be "
+"satisfied. Similarly requiring the boundary integrand to vanish yields the "
+"\"natural\" boundary condition \\\\(\\nabla\\phi\\cdot\\hat{\\mathbf{s}}=0\\"
+"\\), known as the Neumann boundary condition. In the absence of boundary "
+"energies, solving \\\\(\\nabla^{2}\\phi=0\\\\) in \\\\(C\\\\) subject to \\"
+"\\(\\nabla\\phi\\cdot\\hat{\\mathbf{s}}=0\\\\) on \\\\(\\partial C\\\\) "
+"yields the family of uniform constant solutions \\\\(\\phi=\\text{const}.\\"
+"\\)"
+msgstr ""
+
+#: src/examples/electrostatics.md:52
+msgid ""
+"To impose boundary data, we will supplement \\eqref{eq:el1} with the "
+"additional functional,"
+msgstr ""
+
+#: src/examples/electrostatics.md:55
+msgid ""
+"$$ \\\\begin{equation} \\\\lambda\\int\\_{\\partial C}\\left\\[\\\\phi-"
+"\\phi\\_{0}(\\mathbf{x})\\right\\]^{2}dl\\label{eq:anchoring} \\"
+"\\end{equation} $$"
+msgstr ""
+
+#: src/examples/electrostatics.md:61
+msgid ""
+"where the function \\\\(\\phi\\_{0}\\\\) represents some imposed boundary "
+"potential. Taking variations of this functional,"
+msgstr ""
+
+#: src/examples/electrostatics.md:64
+msgid ""
+"$$ \\\\begin{align} \\\\delta\\lambda\\int\\_{\\partial C}\\left\\[\\\\phi-"
+"\\phi\\_{0}(\\mathbf{x})\\right\\]^{2}dl & =\\lambda\\int\\_{\\partial "
+"C}\\frac{\\partial}{\\partial\\phi}\\left\\[\\\\phi-\\phi\\_{0}"
+"(\\mathbf{x})\\right\\]^{2}\\delta\\phi dl\\nonumber \\\\\\\\ & "
+"=\\lambda\\int\\_{\\partial C}2\\left\\[\\\\phi-\\phi\\_{0}"
+"(\\mathbf{x})\\right\\]\\\\delta\\phi dl\\label{eq:boundary} \\\\end{align} $"
+"$"
+msgstr ""
+
+#: src/examples/electrostatics.md:71
+msgid ""
+"Collecting the boundary terms from \\eqref{eq:bulkvariations} and \\eqref{eq:"
+"boundary}, we obtain the equivalent boundary condition on \\\\(\\phi\\\\), $$"
+"\\nabla\\phi\\cdot\\hat{\\mathbf{s}}+2\\lambda(\\phi-\\phi\\_{0})=0,$$ which "
+"is known as a Robin boundary condition. As \\\\(\\lambda\\to\\infty\\\\), \\"
+"\\(\\phi\\to\\phi_0\\\\) on the boundary, recovering a fixed boundary or "
+"Dirichlet condition, while as \\\\(\\lambda\\to0\\\\), we recover the "
+"Neumann conditions discussed earlier."
+msgstr ""
+
+#: src/examples/electrostatics.md:79
+msgid ""
+"In the example, we will set \\\\(\\phi_0=0\\\\) on the left and lower "
+"boundary and \\\\(\\phi_0=1\\\\) on the right and upper boundary, and use \\"
+"\\(\\lambda=100\\\\)."
+msgstr ""
+
+#: src/examples/electrostatics.md:82
+msgid ""
+"The code illustrates a few _morpho_ tricks. First, the following code is "
+"used to select the left/bottom and upper/right sides of the mesh:"
+msgstr ""
+
+#: src/examples/electrostatics.md:92
+msgid ""
+"What's happening here is that we select the whole boundary in the first line "
+"and then select relevant vertices in the next two lines. The edges are then "
+"added to the selection with `addgrade`, but this also selects some interior "
+"edges. To ensure we only have boundary edges in our selections, we find the "
+"intersection of `bnd1` and `bnd`, and similarly for `bnd2`."
+msgstr ""
+
+#: src/examples/electrostatics.md:99
+msgid ""
+"The problem setup involves adding the electrostatic energy Eq.\\eqref{eq:"
+"el1} using `GradSq` and the boundary terms Eq.\\eqref{eq:anchoring} as "
+"`LineIntegral`s."
+msgstr ""
+
+#: src/examples/electrostatics.md:111
+msgid "Optimization is done with a `FieldOptimizer`:"
+msgstr ""
+
+#: src/examples/electrostatics.md:116
+msgid ""
+"The problem as posed requires \\\\(\\phi\\\\) to very sharply change in the "
+"upper left and lower right cornes as the imposed potential changes, but far "
+"away from these \\\\(\\phi\\\\) changes much more slowly. We would like "
+"therefore to perform _adaptive refinement_, refining the mesh only in places "
+"where \\\\(\\phi\\\\) is rapidly changing and using coarse elements "
+"elsewhere."
+msgstr ""
+
+#: src/examples/electrostatics.md:122
+msgid ""
+"To identify elements to refine, we compute the electrostatic energy in each "
+"elementwe'll use this as a heuristic measure of how rapidly \\\\(\\phi\\\\) "
+"is changingand find the mean energy per element. We then create a Selection "
+"and manually select elements that have an electrostatic energy more than \\"
+"\\(1.5\\times\\\\) the mean."
+msgstr ""
+
+#: src/examples/electrostatics.md:128
+msgid ""
+"```\n"
+"// Select elements that have an above average contribution to the energy\n"
+"var en = le.integrand(phi) // energy in each element\n"
+"var mean = en.sum()/en.count() // mean energy per element\n"
+"var srefine = Selection(mesh)\n"
+"for (id in 0...en.count()) if (en[0,id]>1.5*mean) srefine[2,id]=true\n"
+"// identify large contributions\n"
+"```"
+msgstr ""
+
+#: src/examples/electrostatics.md:135
+msgid ""
+"Refinement is then performed with a MeshRefiner object from the `meshtools` "
+"module, which we create with a list of both the mesh to refine _and_ all "
+"quantities that refer to the mesh:"
+msgstr ""
+
+#: src/examples/electrostatics.md:141
+msgid "The refinement is performed using the selection `srefine` just created"
+msgstr ""
+
+#: src/examples/electrostatics.md:145
+msgid ""
+"which returns a Dictionary mapping the old quantities to the new refined "
+"ones. We use this dictionary to update the OptimizationProblem and "
+"FieldOptimizer,"
+msgstr ""
+
+#: src/examples/electrostatics.md:151
+msgid "and finally update our variables"
+msgstr ""
+
+#: src/examples/electrostatics.md:159
+msgid "Finally, we equiangulate the mesh to help avoid narrow elements,"
+msgstr ""
+
+#: src/examples/electrostatics.md:163
+msgid ""
+"Once refinement is complete, further optimization can occur on the newly "
+"refined mesh"
+msgstr ""
+
+#: src/examples/electrostatics.md:168
+msgid ""
+"The process of refinement and optimization just described takes place in a "
+"loop. The resulting mesh after 10 iterations is shown in Fig. [7.6](#fig:"
+"Electrostatics), together with the solution \\\\(\\phi\\\\). The code runs "
+"in a few seconds, providing a considerable speedup over optimizing on a fine "
+"grid to get comparable accuracy."
+msgstr ""
+
+#: src/examples/implicitmesh.md:3
+msgid ""
+"These examples illustrate how to use the `implicitmesh` module to generate "
+"surfaces described as the zero set of a scalar function. The `sphere.morpho` "
+"and `torus.morpho` examples are described more fully in Chapter X, Section "
+"Y. The remaining `threesurface.morpho` creates a triangulation of a surface "
+"with three handles, $$r\\_{z}^{4}z^{2}-\\left(1-\\left(\\frac{x}"
+"{r\\_{x}}\\right)^{2}-\\left(\\frac{y}{r\\_{y}}\\right)^{2}\\right)\\left((x-"
+"x\\_{1})^{2}+y^{2}-r\\_{1}^{2}\\right)\\left((x+x\\_{1})^{2}+y^{2}-r\\_{1}"
+"^{2}\\right)\\left(x^{2}+y^{2}-r\\_{1}^{2}\\right)=0,$$ where \\\\(r\\_{x}\\"
+"\\), \\\\(r\\_{y}\\\\), \\\\(r\\_{z}\\\\), \\\\(r\\_{1}\\\\) and \\"
+"\\(x\\_{1}\\\\) are parameters. The resulting surface is shown in Fig. [7.7]"
+"(#fig:Threesurface)."
+msgstr ""
+
+#: src/examples/meshgen.md:3
+msgid ""
+"Examples in this folder illustrate various techniques to create Meshes with "
+"the `meshgen` module. Examples in two dimensions are shown in Fig. [7.8]"
+"(#fig:Meshgen-2D); those in 3D are shown in Fig. [7.9](#fig:Meshgen-3D). See "
+"also the [Meshgen Section](../working_with_meshes/meshgen_module.md) of the "
+"[Working with Meshes Chapter](../working_with_meshes.md) for additional "
+"discussion of the `meshgen` module."
+msgstr ""
+
+#: src/examples/meshslice.md:13
+msgid ""
+"This example shows how to use the `meshslice` module to create a slice "
+"through a mesh for visualization purposes. The program uses a spherical mesh,"
+msgstr ""
+
+#: src/examples/meshslice.md:17
+msgid ""
+"```\n"
+"var m = Mesh(\"sphere.mesh\")\n"
+"m.addgrade(1)\n"
+"m.addgrade(2)\n"
+"```"
+msgstr ""
+
+#: src/examples/meshslice.md:21
+msgid "and creates a couple of example Fields, one scalar,"
+msgstr ""
+
+#: src/examples/meshslice.md:25
+msgid "and one vector,"
+msgstr ""
+
+#: src/examples/meshslice.md:29
+msgid "A MeshSlicer is created to do the slicing,"
+msgstr ""
+
+#: src/examples/meshslice.md:34
+msgid "and then interpolated Fields along this slice are created too,"
+msgstr ""
+
+#: src/examples/meshslice.md:39
+msgid ""
+"Grade 1 elements (edges) from the original mesh, together with the field phi "
+"interpolated onto three different slices, are shown in Fig. [7.10](#fig:"
+"Meshslice). The example program illustrates a few other different "
+"possibilities."
+msgstr ""
+
+#: src/examples/plot.md:3
+msgid ""
+"This example illustrates drawing of meshes, plotting of fields, etc. See the "
+"[Visualization Chapter](../visualization.md) for more details."
+msgstr ""
+
+#: src/examples/povray.md:3
+msgid ""
+"Examples in this folder illustrates use of the `povray` module used to "
+"produce publication quality renderings from within _morpho_ programs. All "
+"figures in this book were generated using this module."
+msgstr ""
+
+#: src/examples/qtensor.md:1
+msgid "Qtensor"
+msgstr ""
+
+#: src/examples/qtensor.md:16
+msgid ""
+"This example demonstrates use of the alternative Q-tensor formulation of "
+"nematic liquid crystal theory. We briefly present the necessary theory in "
+"two subsections below, then describe the implementation in _morpho_."
+msgstr ""
+
+#: src/examples/qtensor.md:20
+msgid "The Q tensor"
+msgstr ""
+
+#: src/examples/qtensor.md:22
+msgid ""
+"In 2D, for a uniaxial nematic, we can define a Q-tensor: $$Q\\_{ij}=S(n\\_{i}"
+"n\\_{j}-1/2\\delta\\_{ij})$$ Here, the \\\\(-1/2\\delta\\_{ij}\\\\) is added "
+"for convenience, to make the matrix traceless: $$\\text{Tr}"
+"(\\mathbf{Q})=Q\\_{ii}=S(n\\_{i}n\\_{i}-1/2\\delta\\_{ii})=S(1-1/2(2))=0$$ "
+"Now, the Q-tensor is also symmetric by definition: $$Q\\_{ij}=Q\\_{ji}$$ Due "
+"to these two reasons we can write the Q-tensor as a function of only \\"
+"\\(Q\\_{xx}\\\\) and \\\\(Q\\_{xy}\\\\): "
+msgstr ""
+
+#: src/examples/qtensor.md:30
+msgid ""
+"$$ \\mathbf{Q}= \\\\begin{bmatrix} Q\\_{xx} & Q\\_{xy} \\\\\\\\ Q\\_{xy} & -"
+"Q\\_{xx} \\\\end{bmatrix}. $$"
+msgstr ""
+
+#: src/examples/qtensor.md:37
+msgid "Elastic Energy and Anchoring"
+msgstr ""
+
+#: src/examples/qtensor.md:39
+msgid ""
+"The Landau-de Gennes equilibrium free energy for a nematic liquid crystal "
+"can be written in terms of the Q-tensor: "
+msgstr ""
+
+#: src/examples/qtensor.md:42
+msgid ""
+"$$ F\\_{LDG}= \\int\\_{\\Omega}d^{2}{\\bf x}\\ \\left(\\frac{a\\_{2}}"
+"{2}\\text{Tr}(\\mathbf{Q}^{2})+\\frac{a\\_{4}}{4}(\\text{Tr}\\mathbf{Q}"
+"^{2})^{2}+\\frac{K}{2}(\\nabla\\mathbf{Q})^{2}\\right) $$ $$ +"
+"\\oint\\_{\\partial\\Omega}d{\\bf x}\\frac{1}{2}"
+"E\\_{A}\\text{Tr}\\[(\\mathbf{Q}-\\mathbf{W})^{2}\\] $$ "
+msgstr ""
+
+#: src/examples/qtensor.md:46
+msgid ""
+"where \\\\(a\\_{2}=(\\rho-1)\\\\) and \\\\(a\\_{4}=(\\rho+1)/\\rho^{2}\\\\) "
+"set the isotropic to nematic transition with \\\\(\\rho\\\\) being the non-"
+"dimensional density. The system is in the isotropic state for \\"
+"\\(\\rho\\<1\\\\) and in the nematic phase when \\\\(\\rho>1\\\\). In the "
+"nematic phase, \\\\(\\ell\\_{n}=\\sqrt{K/a\\_{2}}\\\\) sets the nematic "
+"coherence length. Now,"
+msgstr ""
+
+#: src/examples/qtensor.md:52
+msgid ""
+"$$\\mathbf{Q}^{2}=\\begin{bmatrix}Q\\_{xx} & Q\\_{xy} \\\\\\\\ Q\\_{xy} & -"
+"Q\\_{xx} \\\\end{bmatrix}\\begin{bmatrix}Q\\_{xx} & Q\\_{xy} \\\\\\\\ "
+"Q\\_{xy} & -Q\\_{xx} \\\\end{bmatrix}=(Q\\_{xx}^{2}+Q\\_{xy}"
+"^{2})\\begin{bmatrix}1 & 0 \\\\\\\\ 0 & 1 \\\\end{bmatrix}$$ Hence, $$"
+"\\text{Tr}(\\mathbf{Q}^{2})=2(Q\\_{xx}^{2}+Q\\_{xy}^{2})$$ Similarly, $"
+"$(\\nabla\\mathbf{Q})^{2}=\\partial\\_{i}Q\\_{kj}\\partial\\_{i}Q\\_{kj}"
+"=2{(\\partial\\_{x}Q\\_{xx})^{2}+(\\partial\\_{x}"
+"Q\\_{xy})^{2}+(\\partial\\_{y}Q\\_{xx})^{2}+(\\partial\\_{y}Q\\_{xy})^{2}}$$ "
+"Now, the second term is a boundary integral, with \\\\(E\\_{A}\\\\) being "
+"the anchoring strength. \\\\(\\mathbf{W}\\\\) is the tensor corresponding to "
+"the boundary condition. For instance, for parallel anchoring, $$W\\_{ij}"
+"=(t\\_{i}t\\_{j}-1/2\\delta\\_{ij})$$ where \\\\(t\\_{i}\\\\) is a component "
+"of the tangent vector at the boundary. \\\\(\\mathbf{W}\\\\) is also a "
+"symmetric traceless tensor with two independent components \\\\(W\\_{xx}\\"
+"\\) and \\\\(W\\_{xy}\\\\). The boundary term becomes: $$"
+"\\text{Tr}\\[(\\mathbf{Q}-\\mathbf{W})^{2}\\]=2{Q\\_{xx}^{2}+Q\\_{xy}"
+"^{2}-2(Q\\_{xx}W\\_{xx}+Q\\_{xy}W\\_{xy})+W\\_{xx}^{2}+W\\_{xy}^{2}}$$"
+msgstr ""
+
+#: src/examples/qtensor.md:70
+msgid "Optimization problem"
+msgstr ""
+
+#: src/examples/qtensor.md:72
+msgid ""
+"We can formulate all the preceding expressions in terms of vector "
+"quantities: $$\\vec{q}\\equiv \\\\{ Q\\_{xx},Q\\_{xy} \\\\} $$ $$"
+"\\vec{w}\\equiv \\\\{w\\_{xx},w\\_{xy} \\\\}$$ Thus, $$\\text{Tr}(\\mathbf{Q}"
+"^{2})=2||\\vec{q}||^{2}$$"
+msgstr ""
+
+#: src/examples/qtensor.md:77
+msgid "$$(\\nabla\\mathbf{Q})^{2}=2||\\nabla\\vec{q}||^{2}$$"
+msgstr ""
+
+#: src/examples/qtensor.md:79
+msgid ""
+"$$\\text{Tr}\\[(\\mathbf{Q}-\\mathbf{W})^{2}\\]=2||\\vec{q}-\\vec{w}||^{2}$$ "
+"With these, we want to minimize the area-integral of $$F=\\int\\_{\\Omega}"
+"d^{2}{\\bf x}\\ \\left(a\\_{2}||\\vec{q}||^{2}+a\\_{4}||\\vec{q}||^{4}+K||"
+"\\nabla\\vec{q}||^{2}\\right)$$ together with the line-integral energy $$"
+"\\oint\\_{\\partial\\Omega}d{\\bf x}\\ E\\_{A}||\\vec{q}-\\vec{w}||^{2}$$"
+msgstr ""
+
+#: src/examples/qtensor.md:85
+msgid "Implementation"
+msgstr ""
+
+#: src/examples/qtensor.md:87
+msgid ""
+"This free energy is readily set up in _morpho_. For this example, we "
+"consider a 2D disk geometry with unit radius. We use \\\\(\\rho=1.3\\\\), so "
+"that we are deep in the nematic regime. We fix \\\\(E\\_{\\text{A}}=3\\\\), "
+"which sets strong anchoring at the boundary. With this strong tangential "
+"anchoring, we get a topological charge of \\\\(+1\\\\) at the boundary, and "
+"this acts as a constraint. When the nematic coherence length is comparable "
+"to the disk diameter (\\\\(\\ell\\_{n}\\sim R\\\\)), the \\\\(+1\\\\) charge "
+"penetrates throughout the disk, whereas if (\\\\(\\ell\\_{n}\\ll R\\\\)), "
+"then a formation with 2 \\\\(+1/2\\\\) defects is more stable. To test this, "
+"we use two different values of \\\\(K\\\\):, 0.01 and 1.0."
+msgstr ""
+
+#: src/examples/qtensor.md:98
+msgid ""
+"We first define all our parameters and import \\\\(\\texttt{disk.mesh}\\\\) "
+"from the tactoid example:"
+msgstr ""
+
+#: src/examples/qtensor.md:101
+msgid ""
+"```\n"
+"var rho = 1.3 // Deep in the nematic phase\n"
+"var EA = 3 // Anchoring strength\n"
+"var K = 0.01 // Bending modulus\n"
+"\n"
+"var a2 = (1-rho)\n"
+"var a4 = (1+rho)/rho^2\n"
+"\n"
+"var m = Mesh(\"disk.mesh\")\n"
+"var m = refinemesh(m) // Refining for a better result\n"
+"var bnd = Selection(m, boundary=true)\n"
+"bnd.addgrade(0) // add point elements\n"
+"```"
+msgstr ""
+
+#: src/examples/qtensor.md:113
+msgid ""
+"We define the Q-tensor in its vector form as discussed above, initializing "
+"it to small random values:"
+msgstr ""
+
+#: src/examples/qtensor.md:119
+msgid ""
+"Note that this incidentally makes the director parallel to a 45 degree line. "
+"We now define the bulk energy, the anchoring energy and the distortion free "
+"energy as follows:"
+msgstr ""
+
+#: src/examples/qtensor.md:123
+msgid ""
+"```\n"
+"// Define bulk free energy\n"
+"fn landau(x, q) {\n"
+"  var qt = q.norm()\n"
+"  var qt2=qt*qt\n"
+"  return a2*qt2 + a4*qt2*qt2\n"
+"}\n"
+"// Define anchoring energy at the boundary\n"
+"fn anchoring(x, q) {\n"
+"  var t = tangent()\n"
+"  var wxx = t[0]*t[0]-0.5\n"
+"  var wxy = t[0]*t[1]\n"
+"  return (q[0]-wxx)^2+(q[1]-wxy)^2\n"
+"}\n"
+"\n"
+"var bulk = AreaIntegral(landau, q_tensor)\n"
+"var anchor = LineIntegral(anchoring, q_tensor)\n"
+"var elastic = GradSq(q_tensor)\n"
+"```"
+msgstr ""
+
+#: src/examples/qtensor.md:141
+msgid "Equipped with the energies, we define the `OptimizationProblem`:"
+msgstr ""
+
+#: src/examples/qtensor.md:148
+msgid ""
+"To minimize the energy with respect to the field, we define the "
+"`FieldOptimizer` and perform a `linesearch`:"
+msgstr ""
+
+#: src/examples/qtensor.md:156
+msgid ""
+"For visualizing the final configuration, we use the same piece of code we "
+"used for the tactoid example, and define some additional helper functions to "
+"extract the director and the order from the Q-tensor:"
+msgstr ""
+
+#: src/examples/qtensor.md:174
+msgid "We use these to create Fields from `q_tensor`."
+msgstr ""
+
+#: src/examples/qtensor.md:176
+msgid ""
+"```\n"
+"// Convert the q-tensor to the director and order\n"
+"var nn = Field(m, Matrix([1,0,0]))\n"
+"for (i in 0...m.count()) nn[i]=qtodirector(q_tensor[i])\n"
+"var S = Field(m, 0)\n"
+"for (i in 0...m.count()) S[i]=qtoorder(q_tensor[i])\n"
+"```"
+msgstr ""
+
+#: src/examples/qtensor.md:182
+msgid ""
+"and display these, reusing the `visualize` function from the tactoid "
+"tutorial example."
+msgstr ""
+
+#: src/examples/qtensor.md:185
+msgid ""
+"```\n"
+"var splot = plotfield(S, style=\"interpolate\")\n"
+"var gnn=visualize(m, nn, 0.05)\n"
+"var gdisp = splot+gnn\n"
+"Show(gdisp)\n"
+"```"
+msgstr ""
+
+#: src/examples/qtensor.md:190
+msgid ""
+"This creates beautiful plots of the nematic, displayed in Fig. [7.11](#fig:"
+"Qtensor). Like the tactoid example, we can do adaptive mesh refinement based "
+"on the elastic energy density as well."
+msgstr ""
+
+#: src/examples/thomson.md:13
+msgid ""
+"Consider \\\\(N\\\\) charges \\\\(q\\\\) with positions \\\\(x_i\\\\) that "
+"are each confined to lie on the unit sphere so that \\\\(\\left| x_i\\right|"
+"=1 \\\\) that repel each other electrostatically and hence whose "
+"configuration minimizes the energy, $$\\frac{k}{2}\\sum\\_{i\\neq "
+"j}\\frac{q^{2}}{\\left|x\\_{i}-x\\_{j}\\right|}$$ The problem was posed by "
+"the physicist J. J. Thomson in 1904, in the context of an early model for "
+"the structure of an atom."
+msgstr ""
+
+#: src/examples/thomson.md:21
+msgid ""
+"To set this up in _morpho_, we begin by creating a mesh from a sequence of "
+"random points using a MeshBuilder object from the `meshtools` module. Notice "
+"that this is quite an unusual mesh; it consists of \\\\(N\\\\) unconnected "
+"points with no connectivity information."
+msgstr ""
+
+#: src/examples/thomson.md:26
+msgid ""
+"```\n"
+"var build = MeshBuilder()\n"
+"for (i in 1..Np) {\n"
+"  var x = Matrix([2*random()-1, 2*random()-1, 2*random()-1])\n"
+"  x/=x.norm() // Project onto unit sphere\n"
+"  build.addvertex(x)\n"
+"}\n"
+"var mesh = build.build()\n"
+"```"
+msgstr ""
+
+#: src/examples/thomson.md:34
+msgid ""
+"The optimization problem is then specified. We use the PairwisePotential "
+"functional from the `functionals` module and supply the Coulomb potential \\"
+"\\(1/r\\\\), together with its derivative \\\\(-1/r^{2}\\\\) as anonymous "
+"functions:"
+msgstr ""
+
+#: src/examples/thomson.md:43
+msgid ""
+"Constraining the particles to a sphere is implemented as a level set "
+"constraint: We use the ScalarPotential functional as a local constraint to "
+"ensure that each particle lies on the zero contour of the scalar function \\"
+"\\(x^{2}+y^{2}+z^{2}-1\\\\), which defines the unit sphere."
+msgstr ""
+
+#: src/examples/thomson.md:50
+msgid "Optimization is then performed:"
+msgstr ""
+
+#: src/examples/thomson.md:57
+msgid ""
+"Notice that we estimate the initial stepsize from the number of particles. "
+"Since each particle will adopt a fraction \\\\(1/N\\\\) of the area, the "
+"stepsize is \\\\(\\propto1/\\sqrt{N}\\\\). In practice, we find that taking "
+"a few steps of gradient descent with relax helps condition the problem by "
+"pushing any particles from the initially random distribution that happened "
+"to be placed very close to one another apart. After this "
+"`conjugategradient`works well and typically converges in around \\\\(100\\"
+"\\) iterations."
+msgstr ""
+
+#: src/examples/thomson.md:66
+msgid ""
+"A final interesting feature of this example is the use of a custom "
+"visualization. We draw a sphere with a center of mass at the location at "
+"each particle:"
+msgstr ""
+
+#: src/examples/thomson.md:77
+msgid ""
+"A typical configuration resulting from this is shown in Fig. [7.12](#fig:"
+"Thomson). Note that we made the large sphere transparent to render with the "
+"povray module; this was achieved by adding the optional argument "
+"`transmit=0.3` to the call to `Sphere`."
+msgstr ""
+
+#: src/examples/wrap.md:12
+msgid ""
+"The wrap example finds a minimal surface constrainted to lie outside two "
+"ellipsoids. The solution, shown in Fig. [7.13](#fig:Wrap) could represent, "
+"for example, a possible configuration for a fluid bridge connecting two "
+"ellipsoidal particles."
+msgstr ""
+
+#: src/examples/wrap.md:18
+msgid ""
+"The basic idea of this code is to \"shrink wrap\" the ellipsoids, starting "
+"with an initial mesh is a cube that completely encloses them. This is "
+"created with PolyhedronMesh from the `meshtools` module:"
+msgstr ""
+
+#: src/examples/wrap.md:22
+msgid ""
+"```\n"
+"// Create a initial cube\n"
+"var L = 2\n"
+"var cube = [[-L, -L, -L], [-L, -L, L], [-L, L, -L],\n"
+"            [-L, L, L], [L, -L, -L], [L, -L, L],\n"
+"            [L, L, -L], [L, L, L]]\n"
+"\n"
+"var faces = [[7, 3, 1, 5], [7, 5, 4, 6], [7, 6, 2, 3], [3, 2, 0, 1], [0, 2, "
+"6,   4], [1, 0, 4, 5]]\n"
+"\n"
+"var m=PolyhedronMesh(cube, faces)\n"
+"m=refinemesh(m)\n"
+"```"
+msgstr ""
+
+#: src/examples/wrap.md:33
+msgid ""
+"The particles are implemented as level set constraints. A convenient "
+"Ellipsoid class is defined to help create appropriate constraints,"
+msgstr ""
+
+#: src/examples/wrap.md:36
+msgid ""
+"```\n"
+"class Ellipsoid { // Construct with Ellipsoid(origin, principalradii)\n"
+"  init(x, r) { \n"
+"    self.origin = x\n"
+"    self.principalradii = r\n"
+"  }\n"
+"  // Returns a level set function for this Ellipsoid\n"
+"  levelset() {\n"
+"    fn phi (x,y,z) {\n"
+"      var x0 = self.origin, rr = self.principalradii\n"
+"      return ((x-x0[0])/rr[0])^2 + ((y-x0[1])/rr[1])^2 + ((z-x0[2])/rr[2])^2 "
+"- 1     \n"
+"    }\n"
+"    return phi\n"
+"  }\n"
+"  /* Analogous code for gradient() ... */\n"
+"}\n"
+"```"
+msgstr ""
+
+#: src/examples/wrap.md:52
+msgid ""
+"The `levelset` method manufactures a scalar function representing the "
+"ellipsoid and suitable for use with the ScalarPotential functional. A second "
+"method, `gradient`, returns the gradient of that function."
+msgstr ""
+
+#: src/examples/wrap.md:56
+msgid "The two ellipsoids of interest are then created like so:"
+msgstr ""
+
+#: src/examples/wrap.md:61
+msgid ""
+"The optimization problem is set up to include the surface area subject to "
+"satisfaction of the level set constraints; these are noted as one-sided, i."
+"e. satisfied if the mesh lies at any point outside the constraint region."
+msgstr ""
+
+#: src/examples/wrap.md:66
+msgid ""
+"```\n"
+"// We want to minimize the area\n"
+"var la = Area() // Subject to level set constraints\n"
+"var ls1 = ScalarPotential( ell1.levelset(), ell1.gradient() )\n"
+"var ls2 = ScalarPotential( ell2.levelset(), ell2.gradient() )\n"
+"var leq = EquiElement()\n"
+"\n"
+"var problem = OptimizationProblem(m)\n"
+"problem.addenergy(la)\n"
+"problem.addlocalconstraint(ls1, onesided=true)\n"
+"problem.addlocalconstraint(ls2, onesided=true) \n"
+"```"
+msgstr ""
+
+#: src/examples/wrap.md:77
+msgid "To promote mesh quality, a second regularization problem is set up:"
+msgstr ""
+
+#: src/examples/wrap.md:84
+msgid "Optimization and refinement are performed iteratively:"
+msgstr ""
+
+#: src/examples/wrap.md:102
+msgid ""
+"Note that we set `stepsize` and `steplimit` on each optimizer; these values "
+"were found by trial and error. The initial shape is quite extreme, and so we "
+"use `relax` for the main optimization problem which is very robust. Calling "
+"`equiangulate` helps maintain mesh quality."
+msgstr ""
+
+#: src/reference.md:3
+msgid ""
+"This chapter mirrors the documentation of everything shipped with the core "
+"Morpho distribution. The documentation is organized in the following "
+"sections:"
+msgstr ""
+
+#: src/reference.md:5
+msgid ""
+"The [Language](reference/language.md) section provides a detailed "
+"description of the Morpho language, including the syntax and semantics of "
+"the language."
+msgstr ""
+
+#: src/reference.md:7
+msgid ""
+"The [Data Types](reference/data_types.md) section describes the various data "
+"types like `List`'s, `Matrix` objects, etc."
+msgstr ""
+
+#: src/reference.md:9
+msgid ""
+"The [Computational Geometry](reference/computational_geometry.md) section "
+"provides the documentation for meshes, selections, fields and functionals."
+msgstr ""
+
+#: src/reference.md:11
+msgid ""
+"The [I/O](reference/io.md) section provides the documentation for the `File` "
+"object."
+msgstr ""
+
+#: src/reference.md:13
+msgid ""
+"The [Modules](reference/modules.md) section provides the documentation for "
+"the various standard modules shipped with Morpho."
+msgstr ""
+
+#: src/reference/language.md:3
+msgid ""
+"This section provides a detailed description of the Morpho language, "
+"including the syntax and semantics of the language."
+msgstr ""
+
+#: src/reference/data_types.md:3
+msgid ""
+"This section describes the various data types like `List`'s, `Matrix` "
+"objects, etc."
+msgstr ""
+
+#: src/reference/computational_geometry.md:3
+msgid ""
+"This section provides the documentation for meshes, selections, fields and "
+"functionals."
+msgstr ""
+
+#: src/reference/io.md:3
+msgid "This section provides the documentation for the `File` object."
+msgstr ""
+
+#: src/reference/modules.md:3
+msgid ""
+"This section provides the documentation for the various standard modules "
+"shipped with Morpho."
+msgstr ""
+
+#: src/mdbook_notes.md:3
+msgid ""
+"This is a conversion of the [Morpho](https://github.com/Morpho-lang/morpho) "
+"[manual](https://github.com/Morpho-lang/morpho/blob/main/manual/manual.pdf) "
+"from the original LyX/TeX to an `mdBook` format."
+msgstr ""
+
+#: src/mdbook_notes.md:5
+msgid ""
+"_Morpho_ is designed by Prof. Timothy J. Atherton at Tufts University. This "
+"conversion is my hobby-work done during my time at Tufts as a postdoctoral "
+"scholar with him."
+msgstr ""
+
+#: src/mdbook_notes.md:7
+msgid ""
+"Here are my few design goals for this conversion. Some are already met, some "
+"are a work in progress:"
+msgstr ""
+
+#: src/mdbook_notes.md:8
+msgid "Faithfully reproduce all the content of the manual (done)"
+msgstr ""
+
+#: src/mdbook_notes.md:9
+msgid "Emphasize accessibility, especially of the math content (wip)"
+msgstr ""
+
+#: src/mdbook_notes.md:10
+msgid ""
+"Ensure easy extension in the future by streamlining the automation. (some "
+"portions are very much not streamlined right now!)"
+msgstr ""
+
+#: src/mdbook_notes.md:12
+msgid ""
+"I found `mdBook` very easy to use and was able to set-up the basic website "
+"without any use of HTML/CSS. I am open to suggestions to move this to "
+"another tool."
+msgstr ""
+
+#: src/mdbook_notes.md:14
+msgid ""
+"To build the book, you need to have [`mdbook`](https://github.com/rust-lang/"
+"mdBook) installed. You can install it with `cargo`:"
+msgstr ""
+
+#: src/mdbook_notes.md:20
+msgid ""
+"Then, you need to generate the figures and the reference section by running "
+"the `build.py` script:"
+msgstr ""
+
+#: src/mdbook_notes.md:24
+msgid ""
+"(Make sure to change the `libmorphofolder` path to your local libmorpho "
+"folder in the `build.py` script. In the future, we will auto-download the "
+"help from GitHub.)"
+msgstr ""
+
+#: src/mdbook_notes.md:26
+msgid "Finally, you can build the book by running `mdbook`:"
+msgstr ""
+
+#: src/mdbook_notes.md:31
+msgid ""
+"This will generate the HTML files in the `book` directory. You can view the "
+"book by opening the `index.html` file in your browser."
+msgstr ""
+
+#: src/mdbook_notes.md:33
+msgid "To preview the book, you can run the following command:"
+msgstr ""
+
+#: src/mdbook_notes.md:38
+msgid "Authoring Guidelines"
+msgstr ""
+
+#: src/mdbook_notes.md:40
+msgid ""
+"The general guidelines for writing a book with `mdBook` can be found in "
+"their [user guide](https://rust-lang.github.io/mdBook/index.html)."
+msgstr ""
+
+#: src/mdbook_notes.md:42
+msgid "Equations are handled using slightly modified MathJax:"
+msgstr ""
+
+#: src/mdbook_notes.md:43
+msgid ""
+"Inline equations are delimited by `\\\\(` and `\\\\)` (same as `mdBook` "
+"default)."
+msgstr ""
+
+#: src/mdbook_notes.md:44
+msgid "Block equations are delimited by `$$` and `$$`."
+msgstr ""
+
+#: src/mdbook_notes.md:45
+msgid ""
+"Auto-numbering and cross-referencing support is limited, numbering not "
+"including chapter and section numbers, and cross-referencing limited to "
+"within a single `.md` file."
+msgstr ""
+
+#: src/mdbook_notes.md:46
+msgid "Labeling an equation is same as in TeX:"
+msgstr ""
+
+#: src/mdbook_notes.md:55
+msgid "Cross-referencing within the document can be done by `\\eqref`:"
+msgstr ""
+
+#: src/mdbook_notes.md:59
+msgid "See the [Electrostatics example](examples/electrostatics.md) for usage."
+msgstr ""
+
+#: src/mdbook_notes.md:61
+msgid "Morpho code is syntax-highlighted using the JavaScript syntax for now:"
+msgstr ""
+
+#: src/mdbook_notes.md:68
+msgid "renders to"
+msgstr ""
+
+#: src/mdbook_notes.md:72
+msgid "Generating the MarkDown files from the original manual"
+msgstr ""
+
+#: src/mdbook_notes.md:74
+msgid ""
+"This mdBook was generated by a series of conversions of the [original LyX "
+"file](https://github.com/Morpho-lang/morpho/blob/main/manual/src/manual.lyx)."
+msgstr ""
+
+#: src/mdbook_notes.md:76
+msgid "Export the LyX file as a `.tex` file"
+msgstr ""
+
+#: src/mdbook_notes.md:77
+msgid ""
+"Convert it to markdown with MathJax using Pandoc using the following command:"
+msgstr ""
+
+#: src/mdbook_notes.md:82
+msgid ""
+"Replace `$...$` with `\\\\(...\\\\)` within this MarkDown file to make the "
+"inline math compatible with MathJax (I used a small `re` script available on "
+"the GitHub repository under `src/replacedollars.py`)."
+msgstr ""
+
+#: src/mdbook_notes.md:84
+msgid "Contributing"
+msgstr ""
+
+#: src/mdbook_notes.md:86
+msgid ""
+"Contributions are absolutely welcome! Check out the [Issues](https://github."
+"com/joshichaitanya3/morpho-manual/issues) on GitHub or make a pull request!"
+msgstr ""

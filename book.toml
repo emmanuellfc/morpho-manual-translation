@@ -7,7 +7,7 @@ title = "Morpho Manual"
 [output.html]
 mathjax-support = true
 git-repository-url = "https://github.com/joshichaitanya3/morpho-manual"
-
+additional-css = ["theme/css/language-picker.css"]
 
 [output.html.fold]
 enable = true    # whether or not to enable section folding
